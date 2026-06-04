@@ -1,0 +1,38 @@
+@inherits LayoutComponentBase
+@inject IStringLocalizer<AvisoLegalResource> L
+@inject IJSRuntime JS
+
+<div class="site-wrapper">
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <span class="navbar-item has-text-weight-bold">Sergi Ortiz Gómez</span>
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <span class="mr-2">@L["LangLabel"]</span>
+                <div class="buttons">
+                    <button class="button is-small" @onclick='() => SetLang("es")'>ES</button>
+                    <button class="button is-small" @onclick='() => SetLang("en")'>EN</button>
+                    <button class="button is-small" @onclick='() => SetLang("fil")'>FIL</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="section">
+        @Body
+    </main>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy; @DateTime.Today.Year Sergi Ortiz Gómez — NIF: 44714088H</p>
+        </div>
+    </footer>
+</div>
+
+@code {
+    async Task SetLang(string lang)
+    {
+        await JS.InvokeVoidAsync("setLegalCulture", lang);
+    }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aviso Legal — Sergi Ortiz Gómez</title>
+    <base href="/" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+</head>
+
+<body>
+    <div id="app">
+        <div class="section has-text-centered">
+            <p class="subtitle">Cargando...</p>
+        </div>
+    </div>
+
+    <div id="blazor-error-ui" style="display:none;position:fixed;bottom:0;width:100%;background:#ffeeba;padding:10px;text-align:center;">
+        Error al cargar la aplicación.
+        <a href="">Recargar</a>
+    </div>
+
+    <script>
+        window.getLegalCulture = () => {
+            var stored = localStorage.getItem('legalCulture');
+            if (stored) return stored;
+            var lang = (navigator.language || 'es').toLowerCase().substring(0, 2);
+            if (lang === 'tl') lang = 'fil';
+            return lang;
+        };
+        window.setLegalCulture = (culture) => {
+            localStorage.setItem('legalCulture', culture);
+            window.location.reload();
+        };
+    </script>
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+
+</html>

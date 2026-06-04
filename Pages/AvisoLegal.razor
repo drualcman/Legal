@@ -1,0 +1,52 @@
+@page "/aviso-legal"
+@inject IStringLocalizer<AvisoLegalResource> L
+
+<PageTitle>@L["PageTitle"]</PageTitle>
+
+<div class="container">
+    <h1 class="title is-2">@L["Title"]</h1>
+    <p class="subtitle">@L["LastUpdated"]</p>
+
+    <div class="content">
+
+        <h2 class="title is-4">@L["Section1Title"]</h2>
+        <p>@L["Section1Intro"]</p>
+        <table class="table is-bordered is-striped is-narrow">
+            <tbody>
+                <tr>
+                    <th>@L["LabelOwner"]</th>
+                    <td>Sergi Ortiz Gómez</td>
+                </tr>
+                <tr>
+                    <th>@L["LabelNIF"]</th>
+                    <td>44714088H</td>
+                </tr>
+                <tr>
+                    <th>@L["LabelAddress"]</th>
+                    <td>Carvajar 18, 2A, 35004 Las Palmas de Gran Canaria, Las Palmas, Canarias, España</td>
+                </tr>
+                <tr>
+                    <th>@L["LabelContact"]</th>
+                    <td><a href="mailto:info@community-mall.com">info@community-mall.com</a></td>
+                </tr>
+                <tr>
+                    <th>@L["LabelActivity"]</th>
+                    <td>@L["ActivityValue"]</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="title is-4">@L["Section2Title"]</h2>
+        <p>@L["Section2Text"]</p>
+
+        <h2 class="title is-4">@L["Section3Title"]</h2>
+        <p>@L["Section3Text"]</p>
+
+        <h2 class="title is-4">@L["Section4Title"]</h2>
+        <p>@L["Section4Text"]</p>
+
+        <h2 class="title is-4">@L["Section5Title"]</h2>
+        <p>@L["Section5Text"]</p>
+
+    </div>
+</div>

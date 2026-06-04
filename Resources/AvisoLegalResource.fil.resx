@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Legal na Paunawa | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Legal na Paunawa</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Na-update: 4 Hunyo 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Wika:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Pagkakilanlan ng May-ari (LSSI, art. 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>Alinsunod sa Artikulo 10 ng Batas ng Espanya 34/2002 tungkol sa Mga Serbisyo ng Lipunang Impormasyon at Elektronikong Kalakalan (LSSI), ibinibigay ang sumusunod na impormasyon:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>May-ari</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>Tax ID (NIF)</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Address</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>Email</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Aktibidad</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Pagbuo at operasyon ng automated cryptocurrency trading software</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Saklaw at Mga Serbisyo</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>Nag-aalok ang may-ari ng mga serbisyo ng automated cryptocurrency trading software, kabilang ang mga tool sa pag-configure ng estratehiya, pagsusuri ng merkado at pamamahala ng komisyon, na ibinibigay nang ganap mula sa Espanya sa pamamagitan ng mga digital na platform. Ang mga serbisyong ito ay hindi bumubuo ng pinansiyal o pang-investment na payo at hindi kinasasangkutan ng pamamahala, pag-iingat o direktang paglilipat ng mga pondo ng gumagamit.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Intelektwal at Industriyal na Ari-arian</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Lahat ng nilalaman ng mga website ng may-ari — kabilang ang mga teksto, disenyo, source code, logo at larawan — ay pag-aari ni Sergi Ortiz Gómez o lisensyado para sa paggamit. Ang pagpaparami, pamamahagi, pagbabago o pampublikong komunikasyon nang walang malinaw na nakasulat na pahintulot ng may-ari ay ipinagbabawal.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Limitasyon ng Pananagutan</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>Ang trading software ay gumagana ayon sa mga setting na naka-configure ng gumagamit. Hindi ginagarantiyahan ng may-ari ang anumang kita o resulta ng mga naisagawang kalakalan. Walang pananagutang tinatanggap para sa mga pagkalugi na nagmumula sa maling pag-configure ng estratehiya, teknikal na pagkabigo ng mga panlabas na exchange, pagkaantala ng koneksyon o anumang iba pang pangyayari na higit sa kontrol ng provider.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Naaangkop na Batas at Hurisdiksyon</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>Ang Legal na Paunawang ito ay pinamamahalaan ng batas ng Espanya. Para sa paglutas ng anumang hindi pagkakaunawaan na nagmumula sa pag-access o paggamit ng mga serbisyo ng may-ari, ang mga partido ay sumasailalim, na tahasang isinusuuko ang anumang ibang hurisdiksyon, sa mga Hukuman ng tirahan ng gumagamit o, sa pagpili ng provider, sa mga Hukuman ng Las Palmas de Gran Canaria, Espanya.</value></data>
+
+</root>

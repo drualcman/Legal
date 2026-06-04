@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Aviso Legal | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Aviso Legal</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Actualizado: 4 de junio de 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Idioma:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Identificación del Titular (LSSI, art. 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE), se facilitan los siguientes datos identificativos:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Titular</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>NIF</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Domicilio</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>Correo electrónico</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Actividad</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Desarrollo y explotación de software para la automatización de operaciones en mercados de criptomonedas</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Objeto y Servicios</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>El titular ofrece servicios de software de trading automatizado de criptomonedas, incluyendo herramientas de configuración de estrategias, análisis de mercado y gestión de comisiones, prestados íntegramente desde España a través de plataformas digitales. Estos servicios no constituyen asesoramiento financiero ni de inversión, y no implican la gestión, custodia ni transferencia directa de fondos del usuario.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Propiedad Intelectual e Industrial</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Todos los contenidos de los sitios web del titular —incluyendo textos, diseños, código fuente, logotipos e imágenes— son propiedad de Sergi Ortiz Gómez o cuentan con la correspondiente licencia de uso. Queda prohibida su reproducción, distribución, transformación o comunicación pública sin autorización expresa y por escrito del titular.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Limitación de Responsabilidad</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>El software de trading opera según los ajustes configurados por el propio usuario. El titular no garantiza rentabilidad ni resultado alguno de las operaciones ejecutadas. No se asume responsabilidad por pérdidas derivadas de la configuración incorrecta de estrategias, fallos técnicos de exchanges externos, interrupciones de conectividad o cualquier otra circunstancia ajena al control del prestador.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Ley Aplicable y Jurisdicción</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>El presente Aviso Legal se rige por la legislación española. Para la resolución de cualquier controversia derivada del acceso o uso de los servicios del titular, las partes se someten, con renuncia expresa a cualquier otro fuero, a los Juzgados y Tribunales del domicilio del usuario o, a elección del prestador, a los de Las Palmas de Gran Canaria, España.</value></data>
+
+</root>
