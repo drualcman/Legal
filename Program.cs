@@ -13,7 +13,7 @@ var host = builder.Build();
 var js = host.Services.GetRequiredService<IJSRuntime>();
 var cultureName = await js.InvokeAsync<string>("getLegalCulture") ?? "es";
 
-string[] supported = ["es", "en", "fil"];
+string[] supported = ["es", "en", "fil", "zh", "ru"];
 if (cultureName == "tl") cultureName = "fil";
 var matched = supported.FirstOrDefault(c =>
     cultureName.StartsWith(c, StringComparison.OrdinalIgnoreCase)) ?? "es";

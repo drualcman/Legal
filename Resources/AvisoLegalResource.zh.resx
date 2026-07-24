@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>法律声明 | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>法律声明</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>更新日期：2026 年 6 月 22 日</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>语言：</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. 所有者身份信息（LSSI 第 10 条）</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>根据 2002 年 7 月 11 日西班牙第 34/2002 号《信息社会服务与电子商务法》（LSSI）第 10 条的规定，现提供以下身份识别信息：</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>所有者</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>税号（NIF）</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>地址</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>电子邮箱</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>业务</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>软件、Web 应用程序及数字服务的开发、发布与运营，以及以开源或授权软件包形式分发的软件库和组件</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. 适用范围与服务</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>本法律声明管辖对 Sergi Ortiz Gómez 所拥有的网站、应用程序及数字服务的访问和使用。所有者的业务包括各类软件产品和服务的开发、发布与运营，示例包括但不限于：在线平台和服务——例如自动化加密货币交易软件、符合适用法规的电子发票服务（例如 VeriFactu）、基于 ISO 9001 标准的质量管理解决方案，以及个人内容整理应用程序——以及以开源或软件包形式（例如 NuGet 软件包）分发的软件库、组件和工具，无论免费还是需要授权。每项产品或服务均可能拥有其各自的特定使用条款、最终用户许可协议（EULA）和隐私政策，在其具体适用的范围内，这些条款应优先于本法律声明。除非另有明确说明，所提供的服务不构成专业、金融、投资或法律建议。</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. 知识产权与工业产权</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>除非另有说明，所有者网站及服务的全部内容——包括文本、设计、源代码、徽标、商标和图像——均归 Sergi Ortiz Gómez 所有或已获得合法授权使用，并受西班牙及欧盟知识产权与工业产权法律的保护。未经所有者明确书面授权，禁止对其进行复制、分发、转换或公开传播。但以开源或通过软件包（例如 NuGet 软件包）分发的软件，受其各自许可证条款（如 MIT 或随每项产品附带的任何其他许可证或 EULA）的管辖，就该软件而言，此类条款应优先适用。</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. 使用条款与责任限制</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>用户承诺依照法律、本法律声明以及（如适用）各产品的特定条款使用所有者的网站、应用程序和服务。软件和服务按"现状"和"现有可用"方式提供，不对不间断或无错误运行作任何保证。对于因不当使用、用户配置错误、第三方服务或平台的故障或中断、数据丢失或任何其他超出其合理控制范围的情况所导致的任何损害，所有者概不负责。特别地，自动化交易软件按用户配置的参数运行，不保证任何盈利或结果，且在任何情况下均不构成金融或投资建议。上述限制应在适用法律允许的最大范围内适用，且不影响依据消费者保护法被认定为消费者的用户所享有的权利。</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. 适用法律与管辖权</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>本法律声明受西班牙法律管辖。对于因访问或使用所有者网站及服务而产生的任何争议，双方服从依法具有管辖权的法院。当用户为消费者时，由用户住所地法院管辖。在与作为专业人士或企业行事的用户往来中，双方明确放弃任何其他管辖权，服从西班牙拉斯帕尔马斯（Las Palmas de Gran Canaria）的法院管辖。</value></data>
+
+</root>

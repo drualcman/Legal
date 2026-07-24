@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Правовая информация | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Правовая информация</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Обновлено: 22 июня 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Язык:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Идентификация владельца (LSSI, ст. 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>Во исполнение статьи 10 испанского Закона 34/2002 от 11 июля об услугах информационного общества и электронной коммерции (LSSI) предоставляются следующие идентификационные данные:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Владелец</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>Налоговый номер (NIF)</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Адрес</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>Электронная почта</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Деятельность</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Разработка, публикация и эксплуатация программного обеспечения, веб-приложений и цифровых сервисов, а также программных библиотек и компонентов, распространяемых как открытый исходный код или как лицензируемые пакеты</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Сфера применения и услуги</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>Настоящая правовая информация регулирует доступ к веб-сайтам, приложениям и цифровым сервисам, принадлежащим Sergi Ortiz Gómez, и их использование. Деятельность владельца включает разработку, публикацию и эксплуатацию различных программных продуктов и услуг, в том числе, в качестве примера и без ограничений: онлайн-платформы и сервисы — такие как программное обеспечение для автоматической торговли криптовалютой, услуги электронного выставления счетов, соответствующие применимым нормам (например, VeriFactu), решения для управления качеством на основе стандарта ISO 9001 и приложения для организации личного контента, — а также программные библиотеки, компоненты и инструменты, распространяемые как открытый исходный код или как пакеты (например, пакеты NuGet), бесплатно или на условиях лицензии. Каждый продукт или услуга может иметь свои особые условия использования, лицензионное соглашение с конечным пользователем (EULA) и политику конфиденциальности, которые имеют преимущественную силу над настоящей правовой информацией в той мере, в какой они конкретно применимы. Предоставляемые услуги не являются профессиональной, финансовой, инвестиционной или юридической консультацией, если прямо не указано иное.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Интеллектуальная и промышленная собственность</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Если не указано иное, всё содержимое веб-сайтов и сервисов владельца — включая тексты, дизайн, исходный код, логотипы, товарные знаки и изображения — принадлежит Sergi Ortiz Gómez или используется на законных лицензионных основаниях и защищено законодательством Испании и Европейского союза об интеллектуальной и промышленной собственности. Их воспроизведение, распространение, преобразование или публичное сообщение без прямого письменного разрешения владельца запрещено. Однако программное обеспечение, распространяемое как открытый исходный код или через пакеты (например, пакеты NuGet), регулируется условиями его соответствующей лицензии (такой как MIT или любой другой лицензии либо EULA, сопровождающей каждый продукт), которые имеют преимущественную силу в отношении этого программного обеспечения.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Условия использования и ограничение ответственности</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>Пользователь обязуется использовать веб-сайты, приложения и сервисы владельца в соответствии с законом, настоящей правовой информацией и, где применимо, особыми условиями каждого продукта. Программное обеспечение и сервисы предоставляются «как есть» и «по мере доступности», без каких-либо гарантий бесперебойной или безошибочной работы. Владелец не несёт ответственности за любой ущерб, возникший вследствие ненадлежащего использования, неправильной настройки пользователем, сбоев или перерывов в работе сторонних сервисов или платформ, потери данных или любых иных обстоятельств, находящихся вне его разумного контроля. В частности, программное обеспечение для автоматической торговли работает согласно параметрам, настроенным пользователем, не гарантирует какой-либо доходности или результата и ни в коем случае не является финансовой или инвестиционной консультацией. Вышеуказанные ограничения применяются в максимально допустимой применимым законодательством степени, не затрагивая прав, предоставленных пользователям, признаваемым потребителями согласно законодательству о защите прав потребителей.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Применимое право и юрисдикция</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>Настоящая правовая информация регулируется законодательством Испании. Для разрешения любого спора, возникающего в связи с доступом к веб-сайтам и сервисам владельца или их использованием, стороны подчиняются судам и трибуналам, компетентным в силу закона. Если пользователь является потребителем, юрисдикцией обладает суд по месту жительства пользователя. В отношениях с пользователями, действующими как профессионалы или предприятия, обе стороны, прямо отказываясь от любой иной юрисдикции, подчиняются судам и трибуналам Лас-Пальмас-де-Гран-Канария (Испания).</value></data>
+
+</root>
