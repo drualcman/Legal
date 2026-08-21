@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>법적 고지 | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>법적 고지</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>최종 수정일: 2026년 6월 22일</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>언어:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. 사업자 정보 (LSSI 제10조)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>정보사회서비스 및 전자상거래에 관한 2002년 7월 11일자 법률 제34/2002호(LSSI-CE) 제10조에 따라 다음의 사업자 정보를 고지합니다:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>사업자</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>납세자 번호(NIF)</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>주소</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>이메일</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>사업 내용</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>소프트웨어, 웹 애플리케이션 및 디지털 서비스의 개발·배포·운영, 그리고 오픈 소스 또는 라이선스 패키지 형태로 배포되는 소프트웨어 라이브러리 및 구성 요소의 개발·배포·운영</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. 목적 및 서비스</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>본 법적 고지는 Sergi Ortiz Gómez가 소유한 웹사이트, 애플리케이션 및 디지털 서비스의 접근과 이용에 관하여 규정합니다. 그 사업 내용에는 다양한 소프트웨어 제품 및 서비스의 개발, 배포, 운영이 포함되며, 예시로는 다음이 있습니다: 암호화폐 자동 매매 소프트웨어, 현행 법령(예: VeriFactu)에 부합하는 전자 청구 서비스, ISO 9001 규격에 따른 품질경영 솔루션, 개인 콘텐츠 관리 애플리케이션 등의 온라인 플랫폼 및 서비스, 그리고 오픈 소스 또는 패키지(예: NuGet 패키지) 형태로 무료 또는 라이선스 조건에 따라 배포되는 소프트웨어 라이브러리, 구성 요소 및 도구. 각 제품 또는 서비스에는 고유한 이용 조건, 최종 사용자 라이선스 계약(EULA), 개인정보처리방침이 있을 수 있으며, 해당 사항에 관하여는 본 법적 고지보다 우선하여 적용됩니다. 제공되는 서비스는 명시적으로 달리 정하지 않는 한 전문적·재무적·투자적·법률적 자문에 해당하지 않습니다.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. 지식재산권 및 산업재산권</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>달리 명시하지 않는 한, 사업자의 웹사이트 및 서비스에 포함된 모든 콘텐츠(텍스트, 디자인, 소스 코드, 로고, 상표, 이미지 등)는 Sergi Ortiz Gómez의 소유이거나 적법한 이용 허락을 받은 것으로서, 지식재산권 및 산업재산권에 관한 스페인 및 유럽연합 법령의 보호를 받습니다. 사업자의 명시적인 서면 승인 없이 이를 복제, 배포, 변형하거나 공중에 전달하는 행위는 금지됩니다. 다만 오픈 소스 또는 패키지(예: NuGet 패키지) 형태로 배포되는 소프트웨어는 각각의 라이선스(MIT 등 제품에 첨부된 라이선스 또는 EULA)의 조건에 따르며, 해당 소프트웨어에 관하여는 그 라이선스가 우선합니다.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. 이용 조건 및 책임의 제한</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>이용자는 법령, 본 법적 고지 및 해당하는 경우 각 제품의 개별 조건에 따라 사업자의 웹사이트, 애플리케이션 및 서비스를 이용할 것에 동의합니다. 소프트웨어와 서비스는 「있는 그대로」 및 「이용 가능한 상태로」 제공되며, 중단 없는 작동이나 오류 없는 작동을 보증하지 않습니다. 사업자는 부적절한 사용, 이용자의 잘못된 설정, 제3자 서비스나 플랫폼의 장애 또는 중단, 데이터 손실, 그 밖에 합리적인 통제를 벗어난 사정으로 발생한 손해에 대하여 책임을 지지 않습니다. 특히 자동 매매 소프트웨어는 이용자가 직접 설정한 조건에 따라 작동하며 어떠한 수익이나 결과도 보증하지 않고, 어떠한 경우에도 재무 자문이나 투자 자문에 해당하지 않습니다. 위 책임 제한은 현행 법령이 허용하는 최대 범위에서 적용되며, 소비자에 해당하는 이용자가 소비자 관련 법령에 따라 가지는 권리에는 영향을 미치지 않습니다.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. 준거법 및 관할</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>본 법적 고지는 스페인 법률의 적용을 받습니다. 사업자의 웹사이트 및 서비스의 접근이나 이용에서 발생하는 분쟁의 해결에 대하여 양 당사자는 법률에 따라 관할권을 가지는 법원에 따릅니다. 이용자가 소비자에 해당하는 경우에는 그 주소지를 관할하는 법원이 관할권을 가집니다. 이용자가 사업자 또는 전문가로서 행위하는 경우, 양 당사자는 다른 모든 재판적을 명시적으로 포기하고 스페인 Las Palmas de Gran Canaria의 법원에 따르기로 합니다.</value></data>
+
+</root>

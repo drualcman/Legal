@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Note Legali | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Note Legali</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Aggiornato: 22 giugno 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Lingua:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Identificazione del Titolare (LSSI, art. 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>In conformità con l'articolo 10 della Legge 34/2002, dell'11 luglio, sui Servizi della Società dell'Informazione e del Commercio Elettronico (LSSI-CE), si fornisce di seguito quanto segue i dati identificativi:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Titolare</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>Codice fiscale (NIF)</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Domicilio</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>Indirizzo email</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Attività</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Sviluppo, pubblicazione e gestione di software, applicazioni web e servizi digitali, nonché di librerie e componenti software distribuiti come open source o come pacchetti su licenza</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Oggetto e Servizi</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>Le presenti Note Legali regolano l'accesso e l'utilizzo dei siti web, delle applicazioni e dei servizi digitali di proprietà di Sergi Ortiz Gómez. La sua attività comprende lo sviluppo, la pubblicazione e la gestione di diversi prodotti e servizi software, tra cui, a titolo puramente esemplificativo: piattaforme e servizi online — come software di trading automatizzato di criptovalute, servizi di fatturazione elettronica conformi alla normativa vigente (ad esempio, VeriFactu), soluzioni di gestione della qualità conformi alla norma ISO 9001 e applicazioni per l'organizzazione di contenuti personali —, così come librerie, componenti e strumenti software distribuiti come open source o come pacchetti (ad esempio, pacchetti NuGet), gratuiti o soggetti a licenza. Ogni prodotto o servizio può disporre di proprie condizioni particolari d'uso, contratto di licenza con l'utente finale (EULA) e informativa sulla privacy, che prevarranno sulle presenti Note Legali per quanto specificamente applicabile. I servizi forniti non costituiscono consulenza professionale, finanziaria, di investimento né legale, salvo espressa indicazione contraria.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Proprietà Intellettuale e Industriale</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Salvo diversa indicazione, tutti i contenuti dei siti web e dei servizi del titolare — inclusi testi, design, codice sorgente, logotipi, marchi e immagini — sono di proprietà di Sergi Ortiz Gómez o sono utilizzati con la relativa licenza, e sono protetti dalla normativa spagnola e dell'Unione Europea in materia di proprietà intellettuale e industriale. È vietata la loro riproduzione, distribuzione, trasformazione o comunicazione pubblica senza l'autorizzazione espressa e scritta del titolare. Tuttavia, il software distribuito come open source o tramite pacchetti (ad esempio, pacchetti NuGet) è disciplinato dai termini della relativa licenza (quali MIT, o altra licenza o EULA che accompagni ciascun prodotto), che prevarrà in relazione a tale software.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Condizioni d'Uso e Limitazione di Responsabilità</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>L'utente si impegna a utilizzare i siti web, le applicazioni e i servizi del titolare in conformità con la legge, le presenti Note Legali e, se applicabile, le condizioni particolari di ciascun prodotto. Il software e i servizi sono forniti «così come sono» e «secondo disponibilità», senza garanzia di funzionamento ininterrotto o privo di errori. Il titolare non sarà responsabile dei danni derivanti da un uso improprio, da una configurazione errata da parte dell'utente, da guasti o interruzioni di servizi o piattaforme di terzi, dalla perdita di dati, né da qualsiasi altra circostanza estranea al suo ragionevole controllo. In particolare, il software di trading automatizzato opera in base ai parametri configurati dall'utente stesso e non garantisce alcuna rendita né risultato, non costituendo in alcun caso consulenza finanziaria o di investimento. Le limitazioni precedenti si applicheranno nella misura massima consentita dalla legislazione vigente, senza pregiudicare i diritti che la normativa in materia di consumo riconosce agli utenti che abbiano la qualità di consumatori.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Legge Applicabile e Giurisdizione</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>Le presenti Note Legali sono disciplinate dalla legislazione spagnola. Per la risoluzione di qualsiasi controversia derivante dall'accesso o dall'uso dei siti web e dei servizi del titolare, le parti si sottopongono ai Giudici e Tribunali competenti secondo la legge. Quando l'utente abbia la qualità di consumatore, sarà competente l'organo giurisdizionale corrispondente al suo domicilio. Nei rapporti con utenti che agiscano in qualità di professionisti o imprenditori, entrambe le parti si sottopongono, con espressa rinuncia a qualsiasi altro foro, ai Giudici e Tribunali di Las Palmas de Gran Canaria (Spagna).</value></data>
+
+</root>

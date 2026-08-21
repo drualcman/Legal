@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Mentions légales | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Mentions légales</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Mis à jour : 22 juin 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Langue :</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Identification du responsable (LSSI, art. 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>Conformément à l'article 10 de la loi espagnole 34/2002 du 11 juillet relative aux services de la société de l'information et au commerce électronique (LSSI), les informations d'identification suivantes sont fournies :</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Responsable</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>Numéro d'identification fiscale (NIF)</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Adresse</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>E-mail</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Activité</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Développement, publication et exploitation de logiciels, applications web et services numériques, ainsi que de bibliothèques et composants logiciels distribués en open source ou sous forme de paquets sous licence</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Champ d'application et services</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>Les présentes mentions légales régissent l'accès et l'utilisation des sites web, applications et services numériques dont Sergi Ortiz Gómez est le titulaire. L'activité du responsable comprend le développement, la publication et l'exploitation de divers produits et services logiciels, notamment, à titre d'exemple et sans limitation : des plateformes et services en ligne — tels qu'un logiciel de trading automatisé de cryptomonnaies, des services de facturation électronique conformes à la réglementation applicable (par exemple, VeriFactu), des solutions de gestion de la qualité basées sur la norme ISO 9001, et des applications d'organisation de contenu personnel — ainsi que des bibliothèques, composants et outils logiciels distribués en open source ou sous forme de paquets (par exemple, des paquets NuGet), gratuits ou soumis à une licence. Chaque produit ou service peut avoir ses propres conditions d'utilisation particulières, contrat de licence utilisateur final (CLUF) et politique de confidentialité, qui prévalent sur les présentes mentions légales dans la mesure où ils s'appliquent spécifiquement. Les services fournis ne constituent pas un conseil professionnel, financier, en investissement ou juridique, sauf indication contraire expresse.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Propriété intellectuelle et industrielle</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Sauf indication contraire, tous les contenus des sites web et services du responsable — y compris les textes, designs, codes sources, logos, marques et images — sont la propriété de Sergi Ortiz Gómez ou font l'objet d'une licence d'utilisation dûment accordée, et sont protégés par le droit espagnol et de l'Union européenne en matière de propriété intellectuelle et industrielle. Leur reproduction, distribution, transformation ou communication publique sans l'autorisation écrite expresse du responsable est interdite. Toutefois, les logiciels distribués en open source ou sous forme de paquets (par exemple, des paquets NuGet) sont régis par les termes de leur licence respective (telle que MIT, ou toute autre licence ou CLUF accompagnant chaque produit), qui prévaut pour ce logiciel.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Conditions d'utilisation et limitation de responsabilité</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>L'utilisateur s'engage à utiliser les sites web, applications et services du responsable conformément à la loi, aux présentes mentions légales et, le cas échéant, aux conditions particulières de chaque produit. Les logiciels et services sont fournis « en l'état » et « selon disponibilité », sans aucune garantie de fonctionnement ininterrompu ou sans erreur. Le responsable ne saurait être tenu responsable des dommages résultant d'une utilisation inappropriée, d'une configuration incorrecte par l'utilisateur, de défaillances ou d'interruptions de services ou plateformes tiers, de pertes de données, ou de toute autre circonstance échappant à son contrôle raisonnable. En particulier, le logiciel de trading automatisé fonctionne selon les paramètres configurés par l'utilisateur et ne garantit aucune rentabilité ni résultat, et ne constitue en aucun cas un conseil financier ou en investissement. Les limitations précédentes s'appliquent dans toute la mesure permise par la loi applicable, sans préjudice des droits accordés aux utilisateurs ayant la qualité de consommateurs en vertu de la législation sur la protection des consommateurs.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Droit applicable et juridiction</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>Les présentes mentions légales sont régies par le droit espagnol. Pour la résolution de tout litige résultant de l'accès aux sites web et services du responsable ou de leur utilisation, les parties se soumettent aux tribunaux compétents conformément à la loi. Lorsque l'utilisateur a la qualité de consommateur, le tribunal du lieu de résidence de l'utilisateur sera compétent. Dans les relations avec des utilisateurs agissant en tant que professionnels ou entreprises, les deux parties se soumettent, en renonçant expressément à toute autre juridiction, aux tribunaux de Las Palmas de Gran Canaria (Espagne).</value></data>
+
+</root>

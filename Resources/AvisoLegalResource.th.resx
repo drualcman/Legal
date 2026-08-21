@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>ประกาศทางกฎหมาย | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>ประกาศทางกฎหมาย</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>อัปเดตล่าสุด: 22 มิถุนายน 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>ภาษา:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. ข้อมูลระบุตัวตนของเจ้าของ (LSSI มาตรา 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>เพื่อให้เป็นไปตามมาตรา 10 ของกฎหมายสเปนฉบับที่ 34/2002 ลงวันที่ 11 กรกฎาคม ว่าด้วยบริการสังคมสารสนเทศและพาณิชย์อิเล็กทรอนิกส์ (LSSI-CE) จึงขอแจ้งข้อมูลระบุตัวตนดังต่อไปนี้:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>เจ้าของ</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>NIF</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>ที่อยู่</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>อีเมล</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>กิจกรรม</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>การพัฒนา เผยแพร่ และดำเนินการซอฟต์แวร์ เว็บแอปพลิเคชัน และบริการดิจิทัล ตลอดจนไลบรารีและคอมโพเนนต์ซอฟต์แวร์ที่เผยแพร่ในรูปแบบโอเพนซอร์สหรือแพ็กเกจภายใต้ใบอนุญาต</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. วัตถุประสงค์และบริการ</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>ประกาศทางกฎหมายฉบับนี้กำหนดเงื่อนไขการเข้าถึงและการใช้งานเว็บไซต์ แอปพลิเคชัน และบริการดิจิทัลที่เป็นกรรมสิทธิ์ของ Sergi Ortiz Gómez กิจกรรมของเจ้าของครอบคลุมการพัฒนา เผยแพร่ และดำเนินการผลิตภัณฑ์และบริการซอฟต์แวร์ต่าง ๆ ซึ่งรวมถึงแต่ไม่จำกัดเพียง แพลตฟอร์มและบริการออนไลน์ เช่น ซอฟต์แวร์เทรดคริปโทเคอร์เรนซีอัตโนมัติ บริการออกใบแจ้งหนี้อิเล็กทรอนิกส์ตามกฎระเบียบที่บังคับใช้ (เช่น VeriFactu) โซลูชันการจัดการคุณภาพตามมาตรฐาน ISO 9001 และแอปพลิเคชันจัดระเบียบเนื้อหาส่วนบุคคล ตลอดจนไลบรารี คอมโพเนนต์ และเครื่องมือซอฟต์แวร์ที่เผยแพร่ในรูปแบบโอเพนซอร์สหรือแพ็กเกจ (เช่น แพ็กเกจ NuGet) ไม่ว่าจะให้ใช้งานฟรีหรืออยู่ภายใต้ใบอนุญาต ผลิตภัณฑ์หรือบริการแต่ละรายการอาจมีเงื่อนไขการใช้งานเฉพาะ ข้อตกลงใบอนุญาตผู้ใช้ปลายทาง (EULA) และนโยบายความเป็นส่วนตัวของตนเอง ซึ่งจะมีผลเหนือกว่าประกาศทางกฎหมายฉบับนี้ในส่วนที่เกี่ยวข้องโดยเฉพาะ บริการที่นำเสนอไม่ถือเป็นคำแนะนำทางวิชาชีพ การเงิน การลงทุน หรือกฎหมาย เว้นแต่จะระบุไว้อย่างชัดแจ้งเป็นอย่างอื่น</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. ทรัพย์สินทางปัญญาและอุตสาหกรรม</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>เว้นแต่จะระบุไว้เป็นอย่างอื่น เนื้อหาทั้งหมดของเว็บไซต์และบริการของเจ้าของ ไม่ว่าจะเป็นข้อความ การออกแบบ ซอร์สโค้ด โลโก้ เครื่องหมายการค้า และภาพ ล้วนเป็นกรรมสิทธิ์ของ Sergi Ortiz Gómez หรือได้รับอนุญาตให้ใช้งานโดยชอบ และได้รับความคุ้มครองตามกฎหมายของสเปนและสหภาพยุโรปว่าด้วยทรัพย์สินทางปัญญาและอุตสาหกรรม ห้ามทำซ้ำ เผยแพร่ ดัดแปลง หรือเผยแพร่ต่อสาธารณะโดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษรจากเจ้าของ อย่างไรก็ตาม ซอฟต์แวร์ที่เผยแพร่ในรูปแบบโอเพนซอร์สหรือผ่านแพ็กเกจ (เช่น แพ็กเกจ NuGet) อยู่ภายใต้เงื่อนไขของใบอนุญาตที่เกี่ยวข้อง (เช่น MIT หรือใบอนุญาตหรือ EULA อื่นที่แนบมากับผลิตภัณฑ์แต่ละรายการ) ซึ่งจะมีผลเหนือกว่าในส่วนของซอฟต์แวร์ดังกล่าว</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. เงื่อนไขการใช้งานและข้อจำกัดความรับผิด</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>ผู้ใช้ตกลงที่จะใช้งานเว็บไซต์ แอปพลิเคชัน และบริการของเจ้าของให้เป็นไปตามกฎหมาย ประกาศทางกฎหมายฉบับนี้ และเงื่อนไขเฉพาะของผลิตภัณฑ์แต่ละรายการ (หากมี) ซอฟต์แวร์และบริการนี้ให้บริการ "ตามสภาพที่เป็นอยู่" และ "ตามความพร้อมใช้งาน" โดยไม่มีการรับประกันการทำงานอย่างต่อเนื่องหรือปราศจากข้อผิดพลาด เจ้าของจะไม่รับผิดชอบต่อความเสียหายใด ๆ ที่เกิดจากการใช้งานโดยมิชอบ การตั้งค่าที่ไม่ถูกต้องโดยผู้ใช้ ความล้มเหลวหรือการหยุดชะงักของบริการหรือแพลตฟอร์มของบุคคลที่สาม การสูญหายของข้อมูล หรือสถานการณ์อื่นใดที่อยู่นอกเหนือการควบคุมตามสมควรของเจ้าของ โดยเฉพาะอย่างยิ่ง ซอฟต์แวร์เทรดอัตโนมัติทำงานตามพารามิเตอร์ที่ผู้ใช้กำหนดเอง และไม่รับประกันผลกำไรหรือผลลัพธ์ใด ๆ ทั้งสิ้น ไม่ถือเป็นคำแนะนำทางการเงินหรือการลงทุนไม่ว่ากรณีใด ข้อจำกัดข้างต้นจะมีผลบังคับใช้เท่าที่กฎหมายที่บังคับใช้อนุญาตสูงสุด โดยไม่กระทบต่อสิทธิที่กฎหมายคุ้มครองผู้บริโภคมอบให้แก่ผู้ใช้ที่มีสถานะเป็นผู้บริโภค</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. กฎหมายที่ใช้บังคับและเขตอำนาจศาล</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>ประกาศทางกฎหมายฉบับนี้อยู่ภายใต้กฎหมายของประเทศสเปน ในกรณีมีข้อพิพาทใด ๆ ที่เกิดจากการเข้าถึงหรือใช้งานเว็บไซต์และบริการของเจ้าของ คู่กรณีตกลงยอมรับเขตอำนาจของศาลที่มีอำนาจตามกฎหมาย ในกรณีที่ผู้ใช้มีสถานะเป็นผู้บริโภค ศาลที่มีเขตอำนาจจะเป็นศาลที่ตั้งอยู่ในภูมิลำเนาของผู้ใช้ ในความสัมพันธ์กับผู้ใช้ที่กระทำการในฐานะผู้ประกอบวิชาชีพหรือผู้ประกอบการ คู่กรณีทั้งสองฝ่ายตกลงยอมรับเขตอำนาจของศาลแห่งเมือง Las Palmas de Gran Canaria (ประเทศสเปน) โดยสละสิทธิในการอ้างเขตอำนาจศาลอื่นใดโดยชัดแจ้ง</value></data>
+
+</root>
