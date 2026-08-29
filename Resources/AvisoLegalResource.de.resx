@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Rechtlicher Hinweis | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Rechtlicher Hinweis</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Aktualisiert: 22. Juni 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Sprache:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Identifizierung des Inhabers (LSSI, Art. 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>In Erfüllung des Artikels 10 des spanischen Gesetzes 34/2002 vom 11. Juli über Dienste der Informationsgesellschaft und den elektronischen Geschäftsverkehr (LSSI-CE) werden folgende Identifikationsdaten mitgeteilt:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Inhaber</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>Steuernummer (NIF)</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Anschrift</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>E-Mail-Adresse</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Tätigkeit</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Entwicklung, Veröffentlichung und Vermarktung von Software, Webanwendungen und digitalen Diensten sowie von Softwarebibliotheken und -komponenten, die als Open Source oder als lizenzierte Pakete vertrieben werden</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Gegenstand und Dienste</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>Dieser Rechtliche Hinweis regelt den Zugang zu und die Nutzung der Websites, Anwendungen und digitalen Dienste, deren Inhaber Sergi Ortiz Gómez ist. Seine Tätigkeit umfasst die Entwicklung, Veröffentlichung und Vermarktung verschiedener Softwareprodukte und -dienste, darunter insbesondere, jedoch nicht ausschließlich: Online-Plattformen und -Dienste – wie automatisierte Software für den Handel mit Kryptowährungen, elektronische Rechnungsstellungsdienste gemäß geltendem Recht (zum Beispiel VeriFactu), Qualitätsmanagementlösungen gemäß der Norm ISO 9001 sowie Anwendungen zur Organisation persönlicher Inhalte – sowie Softwarebibliotheken, -komponenten und -werkzeuge, die als Open Source oder als Pakete (zum Beispiel NuGet-Pakete) vertrieben werden, kostenlos oder lizenzpflichtig. Für jedes Produkt oder jeden Dienst können eigene besondere Nutzungsbedingungen, Endbenutzer-Lizenzverträge (EULA) und Datenschutzrichtlinien gelten, die diesem Rechtlichen Hinweis vorgehen, soweit sie auf den jeweiligen Fall spezifisch anwendbar sind. Die erbrachten Dienste stellen keine professionelle, finanzielle, Anlage- oder Rechtsberatung dar, sofern nicht ausdrücklich etwas anderes angegeben ist.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Geistiges und Gewerbliches Eigentum</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Sofern nicht anders angegeben, sind sämtliche Inhalte der Websites und Dienste des Inhabers – einschließlich Texte, Designs, Quellcode, Logos, Marken und Bilder – Eigentum von Sergi Ortiz Gómez oder werden unter entsprechender Nutzungslizenz bereitgestellt und sind durch die spanischen und europäischen Rechtsvorschriften zum geistigen und gewerblichen Eigentum geschützt. Ihre Vervielfältigung, Verbreitung, Bearbeitung oder öffentliche Wiedergabe ohne ausdrückliche schriftliche Genehmigung des Inhabers ist untersagt. Als Open Source oder über Pakete (zum Beispiel NuGet-Pakete) vertriebene Software unterliegt jedoch den Bedingungen ihrer jeweiligen Lizenz (wie MIT oder einer anderen Lizenz bzw. EULA, die dem jeweiligen Produkt beiliegt), die für diese Software maßgeblich ist.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Nutzungsbedingungen und Haftungsbeschränkung</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>Der Nutzer verpflichtet sich, die Websites, Anwendungen und Dienste des Inhabers im Einklang mit dem geltenden Recht, diesem Rechtlichen Hinweis und gegebenenfalls den besonderen Bedingungen des jeweiligen Produkts zu nutzen. Die Software und die Dienste werden „wie besehen“ und „je nach Verfügbarkeit“ bereitgestellt, ohne Gewähr für einen unterbrechungsfreien oder fehlerfreien Betrieb. Der Inhaber haftet nicht für Schäden, die aus einer missbräuchlichen Nutzung, einer fehlerhaften Konfiguration durch den Nutzer, Fehlern oder Unterbrechungen von Diensten oder Plattformen Dritter, Datenverlust oder sonstigen Umständen außerhalb seiner angemessenen Kontrolle entstehen. Insbesondere arbeitet die automatisierte Handelssoftware gemäß den vom Nutzer selbst festgelegten Parametern und garantiert weder Rentabilität noch ein bestimmtes Ergebnis; sie stellt in keinem Fall eine Finanz- oder Anlageberatung dar. Die vorstehenden Haftungsbeschränkungen gelten im größtmöglichen gesetzlich zulässigen Umfang, unbeschadet der Rechte, die das Verbraucherschutzrecht Nutzern mit Verbrauchereigenschaft einräumt.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Anwendbares Recht und Gerichtsstand</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>Dieser Rechtliche Hinweis unterliegt spanischem Recht. Zur Beilegung von Streitigkeiten im Zusammenhang mit dem Zugang zu oder der Nutzung der Websites und Dienste des Inhabers unterwerfen sich die Parteien den nach dem Gesetz zuständigen Gerichten. Hat der Nutzer die Eigenschaft eines Verbrauchers, ist das für seinen Wohnsitz zuständige Gericht zuständig. In Beziehungen zu Nutzern, die als Fachleute oder Unternehmer handeln, unterwerfen sich beide Parteien unter ausdrücklichem Verzicht auf jeden anderen Gerichtsstand den Gerichten von Las Palmas de Gran Canaria (Spanien).</value></data>
+
+</root>
