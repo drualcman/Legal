@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -43,5 +43,17 @@
 
   <data name="Section5Title" xml:space="preserve"><value>5. Ley Aplicable y Jurisdicción</value></data>
   <data name="Section5Text" xml:space="preserve"><value>El presente Aviso Legal se rige por la legislación española. Para la resolución de cualquier controversia derivada del acceso o uso de los sitios web y servicios del titular, las partes se someten a los Juzgados y Tribunales que resulten competentes conforme a la ley. Cuando el usuario tenga la condición de consumidor, será competente el órgano jurisdiccional correspondiente a su domicilio. En las relaciones con usuarios que actúen como profesionales o empresarios, ambas partes se someten, con renuncia expresa a cualquier otro fuero, a los Juzgados y Tribunales de Las Palmas de Gran Canaria (España).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Idioma</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Europa</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Asia</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>África</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>América</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Oceanía</value></data>
 
 </root>

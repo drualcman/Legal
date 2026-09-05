@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -43,5 +43,17 @@
 
   <data name="Section5Title" xml:space="preserve"><value>5. 适用法律与管辖权</value></data>
   <data name="Section5Text" xml:space="preserve"><value>本法律声明受西班牙法律管辖。对于因访问或使用所有者网站及服务而产生的任何争议，双方服从依法具有管辖权的法院。当用户为消费者时，由用户住所地法院管辖。在与作为专业人士或企业行事的用户往来中，双方明确放弃任何其他管辖权，服从西班牙拉斯帕尔马斯（Las Palmas de Gran Canaria）的法院管辖。</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>语言</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>欧洲</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>亚洲</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>非洲</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>美洲</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>大洋洲</value></data>
 
 </root>

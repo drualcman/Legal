@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -43,5 +43,17 @@
 
   <data name="Section5Title" xml:space="preserve"><value>5. Anwendbares Recht und Gerichtsstand</value></data>
   <data name="Section5Text" xml:space="preserve"><value>Dieser Rechtliche Hinweis unterliegt spanischem Recht. Zur Beilegung von Streitigkeiten im Zusammenhang mit dem Zugang zu oder der Nutzung der Websites und Dienste des Inhabers unterwerfen sich die Parteien den nach dem Gesetz zuständigen Gerichten. Hat der Nutzer die Eigenschaft eines Verbrauchers, ist das für seinen Wohnsitz zuständige Gericht zuständig. In Beziehungen zu Nutzern, die als Fachleute oder Unternehmer handeln, unterwerfen sich beide Parteien unter ausdrücklichem Verzicht auf jeden anderen Gerichtsstand den Gerichten von Las Palmas de Gran Canaria (Spanien).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Sprache</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Europa</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Asien</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>Afrika</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>Amerika</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Ozeanien</value></data>
 
 </root>

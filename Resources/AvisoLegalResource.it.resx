@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -43,5 +43,17 @@
 
   <data name="Section5Title" xml:space="preserve"><value>5. Legge Applicabile e Giurisdizione</value></data>
   <data name="Section5Text" xml:space="preserve"><value>Le presenti Note Legali sono disciplinate dalla legislazione spagnola. Per la risoluzione di qualsiasi controversia derivante dall'accesso o dall'uso dei siti web e dei servizi del titolare, le parti si sottopongono ai Giudici e Tribunali competenti secondo la legge. Quando l'utente abbia la qualità di consumatore, sarà competente l'organo giurisdizionale corrispondente al suo domicilio. Nei rapporti con utenti che agiscano in qualità di professionisti o imprenditori, entrambe le parti si sottopongono, con espressa rinuncia a qualsiasi altro foro, ai Giudici e Tribunali di Las Palmas de Gran Canaria (Spagna).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Lingua</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Europa</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Asia</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>Africa</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>America</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Oceania</value></data>
 
 </root>

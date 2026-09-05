@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -43,5 +43,17 @@
 
   <data name="Section5Title" xml:space="preserve"><value>5. Naaangkop na Batas at Hurisdiksyon</value></data>
   <data name="Section5Text" xml:space="preserve"><value>Ang Legal na Paunawang ito ay pinamamahalaan ng batas ng Espanya. Para sa paglutas ng anumang hindi pagkakaunawaan na nagmumula sa pag-access o paggamit ng mga website at serbisyo ng may-ari, ang mga partido ay sumasailalim sa mga Hukuman na may kakayahan ayon sa batas. Kapag ang gumagamit ay may katayuang konsyumer, ang hukuman ng tirahan ng gumagamit ang magkakaroon ng hurisdiksyon. Sa mga transaksyon sa mga gumagamit na kumikilos bilang propesyonal o negosyo, ang dalawang partido ay sumasailalim, na tahasang isinusuko ang anumang ibang hurisdiksyon, sa mga Hukuman ng Las Palmas de Gran Canaria (Espanya).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Wika</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Europa</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Asya</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>Aprika</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>Amerika</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Oceania</value></data>
 
 </root>

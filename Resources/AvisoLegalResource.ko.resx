@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -43,5 +43,17 @@
 
   <data name="Section5Title" xml:space="preserve"><value>5. 준거법 및 관할</value></data>
   <data name="Section5Text" xml:space="preserve"><value>본 법적 고지는 스페인 법률의 적용을 받습니다. 사업자의 웹사이트 및 서비스의 접근이나 이용에서 발생하는 분쟁의 해결에 대하여 양 당사자는 법률에 따라 관할권을 가지는 법원에 따릅니다. 이용자가 소비자에 해당하는 경우에는 그 주소지를 관할하는 법원이 관할권을 가집니다. 이용자가 사업자 또는 전문가로서 행위하는 경우, 양 당사자는 다른 모든 재판적을 명시적으로 포기하고 스페인 Las Palmas de Gran Canaria의 법원에 따르기로 합니다.</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>언어</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>유럽</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>아시아</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>아프리카</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>아메리카</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>오세아니아</value></data>
 
 </root>

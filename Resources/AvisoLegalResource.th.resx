@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -43,5 +43,17 @@
 
   <data name="Section5Title" xml:space="preserve"><value>5. กฎหมายที่ใช้บังคับและเขตอำนาจศาล</value></data>
   <data name="Section5Text" xml:space="preserve"><value>ประกาศทางกฎหมายฉบับนี้อยู่ภายใต้กฎหมายของประเทศสเปน ในกรณีมีข้อพิพาทใด ๆ ที่เกิดจากการเข้าถึงหรือใช้งานเว็บไซต์และบริการของเจ้าของ คู่กรณีตกลงยอมรับเขตอำนาจของศาลที่มีอำนาจตามกฎหมาย ในกรณีที่ผู้ใช้มีสถานะเป็นผู้บริโภค ศาลที่มีเขตอำนาจจะเป็นศาลที่ตั้งอยู่ในภูมิลำเนาของผู้ใช้ ในความสัมพันธ์กับผู้ใช้ที่กระทำการในฐานะผู้ประกอบวิชาชีพหรือผู้ประกอบการ คู่กรณีทั้งสองฝ่ายตกลงยอมรับเขตอำนาจของศาลแห่งเมือง Las Palmas de Gran Canaria (ประเทศสเปน) โดยสละสิทธิในการอ้างเขตอำนาจศาลอื่นใดโดยชัดแจ้ง</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>ภาษา</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>ยุโรป</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>เอเชีย</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>แอฟริกา</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>อเมริกา</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>โอเชียเนีย</value></data>
 
 </root>

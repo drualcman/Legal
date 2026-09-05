@@ -1,0 +1,74 @@
+@using Legal.Localization
+@using Legal.Resources
+@inject IStringLocalizer<AvisoLegalResource> L
+@inject IJSRuntime JS
+
+@* Once idiomas ya no caben en una fila de botones: se elige aquí, con bandera y agrupado por
+   continentes. Cada idioma sale una sola vez, en el continente del que procede. *@
+<button type="button" class="button is-small language-trigger" @onclick="OpenPicker">
+    <img src="@Current.FlagVectorUrl" width="22" height="15" alt="@Current.NativeName" />
+    <span class="language-trigger-name">@Current.NativeName</span>
+    <span class="language-trigger-caret">▾</span>
+</button>
+
+@if (IsOpen)
+{
+    <div class="language-backdrop" @onclick="ClosePicker"></div>
+    <div class="language-dialog" role="dialog" aria-modal="true" @onclick:stopPropagation>
+        <header class="language-dialog-header">
+            <span class="language-dialog-title">@L["LanguagePickerTitle"]</span>
+            <button type="button" class="delete" aria-label="close" @onclick="ClosePicker"></button>
+        </header>
+        <div class="language-dialog-body">
+            @foreach (LanguageContinent continent in SupportedLanguages.Continents)
+            {
+                <section class="language-group">
+                    <h4 class="language-group-title">@L[GetContinentKey(continent)]</h4>
+                    <div class="language-grid">
+                        @foreach (SupportedLanguage language in SupportedLanguages.ByContinent(continent))
+                        {
+                            <button type="button"
+                                    class="language-item @(language.Code == Current.Code ? "is-active" : "")"
+                                    @onclick="() => SelectAsync(language.Code)">
+                                <img src="@language.FlagVectorUrl" width="22" height="15" alt="@language.NativeName" />
+                                <span>@language.NativeName</span>
+                            </button>
+                        }
+                    </div>
+                </section>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    private SupportedLanguage Current = SupportedLanguages.Default;
+    private bool IsOpen;
+
+    protected override void OnInitialized() =>
+        Current = SupportedLanguages.Find(CultureInfo.CurrentUICulture.Name);
+
+    private void OpenPicker() => IsOpen = true;
+
+    private void ClosePicker() => IsOpen = false;
+
+    private static string GetContinentKey(LanguageContinent continent) => continent switch
+    {
+        LanguageContinent.Europe => "ContinentEurope",
+        LanguageContinent.Asia => "ContinentAsia",
+        LanguageContinent.Africa => "ContinentAfrica",
+        LanguageContinent.America => "ContinentAmerica",
+        _ => "ContinentOceania"
+    };
+
+    private async Task SelectAsync(string code)
+    {
+        IsOpen = false;
+
+        if (code != Current.Code)
+        {
+            // Guarda y recarga: Program.cs aplica la cultura antes de pintar.
+            await JS.InvokeVoidAsync("setLegalCulture", code);
+        }
+    }
+}

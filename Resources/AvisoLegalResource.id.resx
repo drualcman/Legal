@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -43,5 +43,17 @@
 
   <data name="Section5Title" xml:space="preserve"><value>5. Hukum yang Berlaku dan Yurisdiksi</value></data>
   <data name="Section5Text" xml:space="preserve"><value>Pemberitahuan Hukum ini tunduk pada peraturan perundang-undangan Spanyol. Untuk penyelesaian setiap sengketa yang timbul dari akses atau penggunaan situs web dan layanan milik pemilik, para pihak tunduk pada Pengadilan yang berwenang sesuai dengan hukum yang berlaku. Apabila pengguna berstatus sebagai konsumen, yurisdiksi yang berwenang adalah pengadilan yang sesuai dengan tempat tinggalnya. Dalam hubungan dengan pengguna yang bertindak sebagai profesional atau pelaku usaha, kedua belah pihak tunduk, dengan melepaskan secara tegas yurisdiksi lainnya, kepada Pengadilan Las Palmas de Gran Canaria (Spanyol).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Bahasa</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Eropa</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Asia</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>Afrika</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>Amerika</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Oseania</value></data>
 
 </root>

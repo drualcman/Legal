@@ -1,6 +1,5 @@
 @inherits LayoutComponentBase
 @inject IStringLocalizer<AvisoLegalResource> L
-@inject IJSRuntime JS
 
 <div class="site-wrapper">
     <nav class="navbar is-light" role="navigation" aria-label="main navigation">
@@ -10,19 +9,7 @@
         <div class="navbar-end">
             <div class="navbar-item">
                 <span class="mr-2">@L["LangLabel"]</span>
-                <div class="buttons">
-                    <button class="button is-small" @onclick='() => SetLang("es")'>ES</button>
-                    <button class="button is-small" @onclick='() => SetLang("en")'>EN</button>
-                    <button class="button is-small" @onclick='() => SetLang("fil")'>FIL</button>
-                    <button class="button is-small" @onclick='() => SetLang("zh")'>中文</button>
-                    <button class="button is-small" @onclick='() => SetLang("ru")'>Русский</button>
-                    <button class="button is-small" @onclick='() => SetLang("fr")'>Français</button>
-                    <button class="button is-small" @onclick='() => SetLang("ko")'>한국어</button>
-                    <button class="button is-small" @onclick='() => SetLang("it")'>Italiano</button>
-                    <button class="button is-small" @onclick='() => SetLang("th")'>ไทย</button>
-                    <button class="button is-small" @onclick='() => SetLang("de")'>Deutsch</button>
-                    <button class="button is-small" @onclick='() => SetLang("id")'>Bahasa Indonesia</button>
-                </div>
+                <LanguagePicker />
             </div>
         </div>
     </nav>
@@ -37,10 +24,3 @@
         </div>
     </footer>
 </div>
-
-@code {
-    async Task SetLang(string lang)
-    {
-        await JS.InvokeVoidAsync("setLegalCulture", lang);
-    }
-}

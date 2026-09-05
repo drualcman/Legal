@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -43,5 +43,17 @@
 
   <data name="Section5Title" xml:space="preserve"><value>5. Droit applicable et juridiction</value></data>
   <data name="Section5Text" xml:space="preserve"><value>Les présentes mentions légales sont régies par le droit espagnol. Pour la résolution de tout litige résultant de l'accès aux sites web et services du responsable ou de leur utilisation, les parties se soumettent aux tribunaux compétents conformément à la loi. Lorsque l'utilisateur a la qualité de consommateur, le tribunal du lieu de résidence de l'utilisateur sera compétent. Dans les relations avec des utilisateurs agissant en tant que professionnels ou entreprises, les deux parties se soumettent, en renonçant expressément à toute autre juridiction, aux tribunaux de Las Palmas de Gran Canaria (Espagne).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Langue</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Europe</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Asie</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>Afrique</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>Amérique</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Océanie</value></data>
 
 </root>
