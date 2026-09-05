@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Pemberitahuan Hukum | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Pemberitahuan Hukum</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Diperbarui: 22 Juni 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Bahasa:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Identifikasi Pemilik (LSSI, pasal 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>Sesuai dengan pasal 10 Undang-Undang 34/2002, tanggal 11 Juli, tentang Layanan Masyarakat Informasi dan Perdagangan Elektronik (LSSI-CE) Spanyol, berikut disampaikan data identitas berikut:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Pemilik</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>NIF</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Alamat</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>Email</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Aktivitas</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Pengembangan, penerbitan, dan pengoperasian perangkat lunak, aplikasi web, dan layanan digital, serta pustaka (library) dan komponen perangkat lunak yang didistribusikan sebagai kode sumber terbuka atau sebagai paket berlisensi</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Tujuan dan Layanan</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>Pemberitahuan Hukum ini mengatur akses dan penggunaan situs web, aplikasi, dan layanan digital milik Sergi Ortiz Gómez. Aktivitasnya meliputi pengembangan, penerbitan, dan pengoperasian berbagai produk dan layanan perangkat lunak, yang mencakup, secara tidak terbatas: platform dan layanan daring —seperti perangkat lunak trading kripto otomatis, layanan faktur elektronik sesuai dengan peraturan yang berlaku (misalnya, VeriFactu), solusi manajemen mutu sesuai standar ISO 9001, dan aplikasi pengorganisasian konten pribadi—, serta pustaka (library), komponen, dan alat perangkat lunak yang didistribusikan sebagai kode sumber terbuka atau sebagai paket (misalnya, paket NuGet), baik yang gratis maupun yang berlisensi. Setiap produk atau layanan dapat memiliki syarat dan ketentuan penggunaan tersendiri, perjanjian lisensi pengguna akhir (EULA), dan kebijakan privasi masing-masing, yang akan berlaku lebih utama daripada Pemberitahuan Hukum ini sejauh secara spesifik berlaku bagi produk atau layanan tersebut. Layanan yang disediakan bukan merupakan nasihat profesional, keuangan, investasi, atau hukum, kecuali dinyatakan secara tegas sebaliknya.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Kekayaan Intelektual dan Industri</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Kecuali dinyatakan lain, seluruh konten situs web dan layanan milik pemilik —termasuk teks, desain, kode sumber, logo, merek, dan gambar— adalah milik Sergi Ortiz Gómez atau memiliki lisensi penggunaan yang sesuai, dan dilindungi oleh peraturan Spanyol serta Uni Eropa mengenai kekayaan intelektual dan industri. Dilarang mereproduksi, mendistribusikan, mengubah, atau mengkomunikasikan secara publik konten tersebut tanpa izin tertulis yang tegas dari pemilik. Namun demikian, perangkat lunak yang didistribusikan sebagai kode sumber terbuka atau melalui paket (misalnya, paket NuGet) tunduk pada ketentuan lisensinya masing-masing (seperti MIT, atau lisensi maupun EULA lain yang menyertai setiap produk), yang akan berlaku lebih utama terhadap perangkat lunak tersebut.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Syarat Penggunaan dan Batasan Tanggung Jawab</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>Pengguna berkomitmen untuk menggunakan situs web, aplikasi, dan layanan milik pemilik sesuai dengan hukum yang berlaku, Pemberitahuan Hukum ini, dan, jika berlaku, syarat dan ketentuan khusus dari setiap produk. Perangkat lunak dan layanan disediakan «apa adanya» dan «sesuai ketersediaan», tanpa jaminan pengoperasian yang tidak terputus atau bebas dari kesalahan. Pemilik tidak bertanggung jawab atas kerugian atau kerusakan yang timbul akibat penggunaan yang tidak semestinya, konfigurasi yang salah oleh pengguna, kegagalan atau gangguan pada layanan atau platform pihak ketiga, kehilangan data, maupun keadaan lain di luar kendali wajarnya. Secara khusus, perangkat lunak trading otomatis beroperasi sesuai dengan parameter yang dikonfigurasi oleh pengguna itu sendiri dan tidak menjamin profitabilitas atau hasil apa pun, serta sama sekali bukan merupakan nasihat keuangan atau investasi. Batasan-batasan di atas akan berlaku sejauh maksimum yang diizinkan oleh peraturan perundang-undangan yang berlaku, tanpa memengaruhi hak-hak yang diakui oleh peraturan perlindungan konsumen bagi pengguna yang berstatus sebagai konsumen.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Hukum yang Berlaku dan Yurisdiksi</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>Pemberitahuan Hukum ini tunduk pada peraturan perundang-undangan Spanyol. Untuk penyelesaian setiap sengketa yang timbul dari akses atau penggunaan situs web dan layanan milik pemilik, para pihak tunduk pada Pengadilan yang berwenang sesuai dengan hukum yang berlaku. Apabila pengguna berstatus sebagai konsumen, yurisdiksi yang berwenang adalah pengadilan yang sesuai dengan tempat tinggalnya. Dalam hubungan dengan pengguna yang bertindak sebagai profesional atau pelaku usaha, kedua belah pihak tunduk, dengan melepaskan secara tegas yurisdiksi lainnya, kepada Pengadilan Las Palmas de Gran Canaria (Spanyol).</value></data>
+
+</root>
