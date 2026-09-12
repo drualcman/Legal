@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>الإشعار القانوني | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>الإشعار القانوني</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>آخر تحديث: 22 يونيو 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>اللغة:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. بيانات صاحب الموقع (قانون LSSI، المادة 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>امتثالًا للمادة 10 من القانون 34/2002 الصادر في 11 يوليو بشأن خدمات مجتمع المعلومات والتجارة الإلكترونية (LSSI-CE)، تُقدَّم البيانات التعريفية التالية:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>صاحب الموقع</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>رقم التعريف الضريبي (NIF)</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>العنوان</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>البريد الإلكتروني</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>النشاط</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>تطوير البرمجيات وتطبيقات الويب والخدمات الرقمية ونشرها وتشغيلها، وكذلك المكتبات ومكوّنات البرمجيات الموزَّعة كمصدر مفتوح أو كحزم مرخَّصة</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. الغرض والخدمات</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>ينظّم هذا الإشعار القانوني الوصول إلى المواقع الإلكترونية والتطبيقات والخدمات الرقمية المملوكة لـ Sergi Ortiz Gómez واستخدامها. ويشمل نشاطه تطوير عدد من منتجات وخدمات البرمجيات ونشرها وتشغيلها، ومنها على سبيل المثال لا الحصر: المنصات والخدمات على الإنترنت — مثل برمجيات التداول الآلي للعملات المشفّرة، وخدمات الفوترة الإلكترونية وفق التشريعات السارية (مثل VeriFactu)، وحلول إدارة الجودة وفق معيار ISO 9001، وتطبيقات تنظيم المحتوى الشخصي — إضافةً إلى المكتبات والمكوّنات وأدوات البرمجيات الموزَّعة كمصدر مفتوح أو كحزم (مثل حزم NuGet)، سواء كانت مجانية أو خاضعة لترخيص. وقد يكون لكل منتج أو خدمة شروط استخدام خاصة به، واتفاقية ترخيص المستخدم النهائي (EULA)، وسياسة خصوصية، وهي تسود على هذا الإشعار القانوني فيما ينطبق عليها تحديدًا. ولا تشكّل الخدمات المقدَّمة استشارة مهنية أو مالية أو استثمارية أو قانونية، ما لم يُذكر خلاف ذلك صراحةً.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. الملكية الفكرية والصناعية</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>ما لم يُذكر خلاف ذلك، فإن جميع محتويات المواقع الإلكترونية وخدمات صاحب الموقع — بما فيها النصوص والتصاميم والشيفرة المصدرية والشعارات والعلامات التجارية والصور — مملوكة لـ Sergi Ortiz Gómez أو مرخَّصة له، وهي محمية بموجب التشريعات الإسبانية وتشريعات الاتحاد الأوروبي المتعلقة بالملكية الفكرية والصناعية. ويُحظر نسخها أو توزيعها أو تعديلها أو إتاحتها للجمهور دون إذن صريح وخطي من صاحبها. غير أن البرمجيات الموزَّعة كمصدر مفتوح أو عبر حزم (مثل حزم NuGet) تخضع لشروط ترخيصها الخاص (مثل MIT أو أي ترخيص أو اتفاقية EULA مرافقة لكل منتج)، وهو ما يسود بشأن تلك البرمجيات.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. شروط الاستخدام وحدود المسؤولية</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>يلتزم المستخدم باستخدام مواقع صاحب الموقع وتطبيقاته وخدماته وفقًا للقانون وهذا الإشعار القانوني، وعند الاقتضاء وفقًا للشروط الخاصة بكل منتج. وتُقدَّم البرمجيات والخدمات «كما هي» و«حسب توافرها»، دون ضمان تشغيل متواصل أو خالٍ من الأخطاء. ولا يتحمل صاحب الموقع المسؤولية عن الأضرار الناجمة عن سوء الاستخدام، أو عن إعداد غير صحيح من جانب المستخدم، أو عن أعطال أو انقطاعات في خدمات أو منصات أطراف أخرى، أو عن فقدان البيانات، أو عن أي ظرف آخر خارج سيطرته المعقولة. وعلى وجه الخصوص، تعمل برمجيات التداول الآلي وفق المعايير التي يضبطها المستخدم نفسه ولا تضمن أي ربحية أو نتيجة، ولا تشكّل بأي حال استشارة مالية أو استثمارية. وتُطبَّق القيود السابقة إلى أقصى حد تسمح به التشريعات السارية، دون المساس بالحقوق التي تكفلها تشريعات حماية المستهلك للمستخدمين الذين تنطبق عليهم صفة المستهلك.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. القانون الواجب التطبيق والاختصاص القضائي</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>يخضع هذا الإشعار القانوني للتشريعات الإسبانية. ولتسوية أي نزاع ينشأ عن الوصول إلى مواقع صاحب الموقع وخدماته أو استخدامها، يخضع الطرفان للمحاكم المختصة وفقًا للقانون. وعندما تنطبق على المستخدم صفة المستهلك، تختص المحكمة التابع لها محل إقامته. أما في العلاقات مع المستخدمين الذين يتصرفون بصفة مهنية أو تجارية، فيخضع الطرفان، مع التنازل الصريح عن أي اختصاص آخر، لمحاكم لاس بالماس دي غران كناريا (إسبانيا).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>اللغة</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>أوروبا</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>آسيا</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>أفريقيا</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>أمريكا</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>أوقيانوسيا</value></data>
+
+</root>
