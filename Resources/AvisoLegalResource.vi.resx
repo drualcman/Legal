@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Thông báo pháp lý | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Thông báo pháp lý</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Cập nhật: ngày 22 tháng 6 năm 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Ngôn ngữ:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Thông tin nhận dạng Chủ sở hữu (LSSI, điều 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>Theo quy định tại điều 10 của Luật 34/2002 ngày 11 tháng 7 về Dịch vụ Xã hội Thông tin và Thương mại Điện tử (LSSI-CE), các thông tin nhận dạng sau đây được cung cấp:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Chủ sở hữu</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>Mã số thuế (NIF)</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Địa chỉ</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>Thư điện tử</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Lĩnh vực hoạt động</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Phát triển, phát hành và khai thác phần mềm, ứng dụng web và dịch vụ số, cũng như các thư viện và thành phần phần mềm được phân phối dưới dạng mã nguồn mở hoặc dưới dạng gói có giấy phép</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Đối tượng và Dịch vụ</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>Thông báo pháp lý này điều chỉnh việc truy cập và sử dụng các trang web, ứng dụng và dịch vụ số thuộc sở hữu của Sergi Ortiz Gómez. Hoạt động của chủ sở hữu bao gồm việc phát triển, phát hành và khai thác nhiều sản phẩm và dịch vụ phần mềm khác nhau, trong đó có, nhưng không giới hạn ở: các nền tảng và dịch vụ trực tuyến — như phần mềm giao dịch tiền mã hóa tự động, dịch vụ hóa đơn điện tử tuân thủ quy định hiện hành (ví dụ VeriFactu), giải pháp quản lý chất lượng theo tiêu chuẩn ISO 9001 và ứng dụng sắp xếp nội dung cá nhân —, cũng như các thư viện, thành phần và công cụ phần mềm được phân phối dưới dạng mã nguồn mở hoặc dưới dạng gói (ví dụ các gói NuGet), miễn phí hoặc có giấy phép. Mỗi sản phẩm hoặc dịch vụ có thể có điều kiện sử dụng riêng, thỏa thuận cấp phép người dùng cuối (EULA) và chính sách quyền riêng tư riêng, và các văn bản đó sẽ được ưu tiên áp dụng so với Thông báo pháp lý này trong phạm vi áp dụng cụ thể của chúng. Các dịch vụ được cung cấp không cấu thành tư vấn chuyên môn, tài chính, đầu tư hay pháp lý, trừ khi có tuyên bố rõ ràng ngược lại.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Quyền Sở hữu Trí tuệ và Công nghiệp</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Trừ khi có chỉ dẫn khác, toàn bộ nội dung của các trang web và dịch vụ của chủ sở hữu — bao gồm văn bản, thiết kế, mã nguồn, biểu trưng, nhãn hiệu và hình ảnh — đều thuộc sở hữu của Sergi Ortiz Gómez hoặc được cấp phép sử dụng tương ứng, và được bảo hộ theo pháp luật Tây Ban Nha và Liên minh Châu Âu về sở hữu trí tuệ và sở hữu công nghiệp. Nghiêm cấm sao chép, phân phối, chuyển thể hoặc truyền đạt công khai các nội dung này nếu không có sự cho phép rõ ràng bằng văn bản của chủ sở hữu. Tuy nhiên, phần mềm được phân phối dưới dạng mã nguồn mở hoặc dưới dạng gói (ví dụ các gói NuGet) chịu sự điều chỉnh của các điều khoản trong giấy phép tương ứng (chẳng hạn MIT, hoặc giấy phép hay EULA khác đi kèm mỗi sản phẩm), và giấy phép đó sẽ được ưu tiên áp dụng đối với phần mềm nói trên.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Điều kiện Sử dụng và Giới hạn Trách nhiệm</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>Người dùng cam kết sử dụng các trang web, ứng dụng và dịch vụ của chủ sở hữu phù hợp với pháp luật, với Thông báo pháp lý này và, nếu có, với các điều kiện riêng của từng sản phẩm. Phần mềm và dịch vụ được cung cấp «nguyên trạng» và «theo mức độ sẵn có», không bảo đảm hoạt động liên tục hay không có lỗi. Chủ sở hữu không chịu trách nhiệm về các thiệt hại phát sinh từ việc sử dụng sai mục đích, từ việc người dùng cấu hình không đúng, từ sự cố hoặc gián đoạn của dịch vụ và nền tảng bên thứ ba, từ việc mất dữ liệu, cũng như từ bất kỳ tình huống nào khác nằm ngoài tầm kiểm soát hợp lý của chủ sở hữu. Cụ thể, phần mềm giao dịch tự động vận hành theo đúng các tham số do chính người dùng thiết lập và không bảo đảm lợi nhuận hay bất kỳ kết quả nào, và trong mọi trường hợp đều không cấu thành tư vấn tài chính hoặc đầu tư. Các giới hạn nêu trên được áp dụng ở mức tối đa mà pháp luật hiện hành cho phép, không ảnh hưởng đến các quyền mà pháp luật bảo vệ người tiêu dùng dành cho người dùng có tư cách là người tiêu dùng.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Luật Áp dụng và Thẩm quyền Tài phán</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>Thông báo pháp lý này chịu sự điều chỉnh của pháp luật Tây Ban Nha. Đối với việc giải quyết mọi tranh chấp phát sinh từ việc truy cập hoặc sử dụng các trang web và dịch vụ của chủ sở hữu, các bên tuân theo thẩm quyền của các Tòa án có thẩm quyền theo quy định của pháp luật. Khi người dùng có tư cách là người tiêu dùng, cơ quan tài phán có thẩm quyền sẽ là cơ quan tương ứng với nơi cư trú của người đó. Trong quan hệ với người dùng hoạt động với tư cách chuyên gia hoặc doanh nghiệp, hai bên cùng tuân theo thẩm quyền của các Tòa án tại Las Palmas de Gran Canaria (Tây Ban Nha), và từ bỏ rõ ràng mọi thẩm quyền tài phán khác.</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Ngôn ngữ</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Châu Âu</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Châu Á</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>Châu Phi</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>Châu Mỹ</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Châu Đại Dương</value></data>
+
+</root>

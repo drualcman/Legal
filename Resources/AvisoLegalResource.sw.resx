@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Ilani ya Kisheria | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Ilani ya Kisheria</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Ilisasishwa: 22 Juni 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Lugha:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Utambulisho wa Mmiliki (LSSI, kif. 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>Kwa kufuata kifungu cha 10 cha Sheria 34/2002, ya 11 Julai, kuhusu Huduma za Jamii ya Habari na Biashara ya Kielektroniki (LSSI-CE), taarifa zifuatazo za utambulisho zinatolewa:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Mmiliki</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>NIF</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Makazi</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>Barua pepe</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Shughuli</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Utengenezaji, uchapishaji na uendeshaji wa programu, programu za tovuti na huduma za kidijitali, pamoja na maktaba na vipengele vya programu vinavyosambazwa kama msimbo huria au kama pakiti chini ya leseni</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Lengo na Huduma</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>Ilani hii ya Kisheria inasimamia ufikiaji na matumizi ya tovuti, programu na huduma za kidijitali zinazomilikiwa na Sergi Ortiz Gómez. Shughuli yake inajumuisha utengenezaji, uchapishaji na uendeshaji wa bidhaa na huduma mbalimbali za programu, ambazo zinajumuisha, kwa mfano tu: majukwaa na huduma za mtandaoni —kama programu ya biashara ya kiotomatiki ya sarafu za kidijitali, huduma za ankara za kielektroniki kulingana na kanuni zinazotumika (kwa mfano, VeriFactu), suluhisho za usimamizi wa ubora kulingana na kiwango cha ISO 9001 na programu za kupanga maudhui ya kibinafsi—, pamoja na maktaba, vipengele na zana za programu zinazosambazwa kama msimbo huria au kama pakiti (kwa mfano, pakiti za NuGet), bila malipo au chini ya leseni. Kila bidhaa au huduma inaweza kuwa na masharti yake maalum ya matumizi, mkataba wa leseni ya mtumiaji wa mwisho (EULA) na sera ya faragha, ambayo yatatawala juu ya Ilani hii ya Kisheria katika kile kinachohusiana nayo mahsusi. Huduma zinazotolewa hazijumuishi ushauri wa kitaalamu, wa kifedha, wa uwekezaji wala wa kisheria, isipokuwa ikielezwa wazi vinginevyo.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Haki Miliki na za Kiwanda</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Isipokuwa ikielezwa vinginevyo, maudhui yote ya tovuti na huduma za mmiliki —pamoja na maandishi, miundo, msimbo wa asili, alama, chapa na picha— yanamilikiwa na Sergi Ortiz Gómez au yanayo leseni inayolingana ya matumizi, na yanalindwa na kanuni za Hispania na za Umoja wa Ulaya kuhusu haki miliki na za kiwanda. Kuzalisha, kusambaza, kubadilisha au kuwasiliana kwa umma bila idhini iliyoandikwa na wazi ya mmiliki ni marufuku. Hata hivyo, programu inayosambazwa kama msimbo huria au kupitia pakiti (kwa mfano, pakiti za NuGet) inatawaliwa na masharti ya leseni yake (kama MIT, au leseni nyingine au EULA inayoambatana na kila bidhaa), ambayo yatatawala kuhusu programu hiyo.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Masharti ya Matumizi na Mipaka ya Dhima</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>Mtumiaji anajitolea kutumia tovuti, programu na huduma za mmiliki kwa kufuata sheria, Ilani hii ya Kisheria na, ikihusika, masharti maalum ya kila bidhaa. Programu na huduma zinatolewa «kama zilivyo» na «kadri zinapatikana», bila hakikisho la utendaji usiokatika au usio na makosa. Mmiliki hatawajibika kwa hasara au madhara yanayotokana na matumizi yasiyofaa, usanidi usio sahihi wa mtumiaji, hitilafu au kukatika kwa huduma au majukwaa ya wahusika wa tatu, kupoteza data, wala mazingira mengine yoyote yaliyo nje ya udhibiti wake unaofaa. Hasa, programu ya biashara ya kiotomatiki inafanya kazi kulingana na vigezo vilivyosanidiwa na mtumiaji mwenyewe na haihakikishi faida wala matokeo yoyote, na haijumuishi kwa hali yoyote ushauri wa kifedha au wa uwekezaji. Mipaka iliyo juu itatumika kwa kiwango cha juu kinachoruhusiwa na sheria zinazotumika, bila kuathiri haki ambazo kanuni za walaji zinatoa kwa watumiaji walio na hadhi ya walaji.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Sheria Inayotumika na Mamlaka</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>Ilani hii ya Kisheria inatawaliwa na sheria za Hispania. Kwa kutatua mgogoro wowote unaotokana na ufikiaji au matumizi ya tovuti na huduma za mmiliki, pande zinajisalimisha kwa Mahakama zenye mamlaka kulingana na sheria. Mtumiaji akiwa na hadhi ya mlaji, chombo cha mahakama kinacholingana na makazi yake kitakuwa na mamlaka. Katika mahusiano na watumiaji wanaotenda kama wataalamu au wafanyabiashara, pande zote mbili zinajisalimisha, kwa kukataa wazi mamlaka nyingine yoyote, kwa Mahakama za Las Palmas de Gran Canaria (Hispania).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Lugha</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Ulaya</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Asia</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>Afrika</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>Amerika</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Oshania</value></data>
+
+</root>

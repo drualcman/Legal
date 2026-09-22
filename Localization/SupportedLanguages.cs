@@ -18,8 +18,10 @@ public static class SupportedLanguages
         new SupportedLanguage("th", "ไทย", "th", LanguageContinent.Asia),
         new SupportedLanguage("id", "Bahasa Indonesia", "id", LanguageContinent.Asia),
         new SupportedLanguage("fil", "Filipino (Tagalog)", "ph", LanguageContinent.Asia),
+        new SupportedLanguage("vi", "Tiếng Việt", "vn", LanguageContinent.Asia),
         new SupportedLanguage("ar", "العربية", "sa", LanguageContinent.Asia),
-        new SupportedLanguage("ar", "العربية", "un", LanguageContinent.Africa)
+        new SupportedLanguage("ar", "العربية", "un", LanguageContinent.Africa),
+        new SupportedLanguage("sw", "Kiswahili", "un", LanguageContinent.Africa)
     ];
 
     public static SupportedLanguage Default => All[0];
