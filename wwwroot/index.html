@@ -23,8 +23,22 @@
     </div>
 
     <script>
+        // Shared with every *.shotupalbums.com site (app, landing, wiki, share) through a
+        // parent-domain cookie; the old per-site localStorage key is only a fallback.
+        window.readSharedCulture = () => {
+            var match = document.cookie.match(/(?:^|;\s*)shotup-culture=([^;]*)/);
+            return match ? decodeURIComponent(match[1]) : null;
+        };
+        window.writeSharedCulture = (culture) => {
+            var host = location.hostname;
+            var isShotupHost = host === 'shotupalbums.com' || host.endsWith('.shotupalbums.com');
+            var domain = isShotupHost ? '; domain=.shotupalbums.com' : '';
+            var secure = location.protocol === 'https:' ? '; secure' : '';
+            document.cookie = 'shotup-culture=' + encodeURIComponent(culture)
+                + '; path=/; max-age=31536000; samesite=lax' + domain + secure;
+        };
         window.getLegalCulture = () => {
-            var stored = localStorage.getItem('legalCulture');
+            var stored = window.readSharedCulture() || localStorage.getItem('legalCulture');
             if (stored) return stored;
             var lang = (navigator.language || 'es').toLowerCase().substring(0, 2);
             if (lang === 'tl') lang = 'fil';
@@ -32,6 +46,7 @@
         };
         window.setLegalCulture = (culture) => {
             localStorage.setItem('legalCulture', culture);
+            window.writeSharedCulture(culture);
             window.location.reload();
         };
     </script>

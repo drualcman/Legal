@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Aviso Legal | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Aviso Legal</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Atualizado: 22 de junho de 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Idioma:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Identificação do Titular (LSSI, art. 10.º)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>Em cumprimento do artigo 10.º da Lei 34/2002, de 11 de julho, relativa aos Serviços da Sociedade da Informação e ao Comércio Eletrónico (LSSI-CE), são facultados os seguintes dados identificativos:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Titular</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>NIF</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Morada</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>Correio eletrónico</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Atividade</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Desenvolvimento, publicação e exploração de software, aplicações web e serviços digitais, bem como de bibliotecas e componentes de software distribuídos como código aberto ou como pacotes sob licença</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Objeto e Serviços</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>O presente Aviso Legal regula o acesso e a utilização dos sítios web, aplicações e serviços digitais de que é titular Sergi Ortiz Gómez. A sua atividade compreende o desenvolvimento, a publicação e a exploração de diversos produtos e serviços de software, entre os quais se incluem, a título meramente enunciativo: plataformas e serviços em linha — como software de trading automatizado de criptomoedas, serviços de faturação eletrónica em conformidade com a regulamentação em vigor (por exemplo, VeriFactu), soluções de gestão da qualidade em conformidade com a norma ISO 9001 e aplicações de organização de conteúdo pessoal —, bem como bibliotecas, componentes e ferramentas de software distribuídos como código aberto ou como pacotes (por exemplo, pacotes NuGet), de caráter gratuito ou sujeitos a licença. Cada produto ou serviço pode dispor das suas próprias condições particulares de utilização, contrato de licença de utilizador final (EULA) e política de privacidade, que prevalecerão sobre o presente Aviso Legal no que lhes seja especificamente aplicável. Os serviços prestados não constituem aconselhamento profissional, financeiro, de investimento nem jurídico, salvo indicação expressa em contrário.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Propriedade Intelectual e Industrial</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Salvo indicação em contrário, todos os conteúdos dos sítios web e serviços do titular — incluindo textos, designs, código-fonte, logótipos, marcas e imagens — são propriedade de Sergi Ortiz Gómez ou dispõem da correspondente licença de utilização, e encontram-se protegidos pela legislação espanhola e da União Europeia em matéria de propriedade intelectual e industrial. É proibida a sua reprodução, distribuição, transformação ou comunicação pública sem autorização expressa e por escrito do titular. Não obstante, o software distribuído como código aberto ou através de pacotes (por exemplo, pacotes NuGet) rege-se pelos termos da sua respetiva licença (tais como MIT, ou outra licença ou EULA que acompanhe cada produto), que prevalecerá relativamente a esse software.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Condições de Utilização e Limitação de Responsabilidade</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>O utilizador compromete-se a utilizar os sítios web, aplicações e serviços do titular em conformidade com a lei, o presente Aviso Legal e, se for caso disso, as condições particulares de cada produto. O software e os serviços são fornecidos «tal como estão» e «conforme a disponibilidade», sem garantia de funcionamento ininterrupto ou isento de erros. O titular não será responsável pelos danos ou prejuízos decorrentes de uma utilização indevida, de uma configuração incorreta por parte do utilizador, de falhas ou interrupções de serviços ou plataformas de terceiros, da perda de dados, nem de qualquer outra circunstância alheia ao seu controlo razoável. Em particular, o software de trading automatizado opera de acordo com os parâmetros configurados pelo próprio utilizador e não garante rentabilidade nem resultado algum, não constituindo em caso algum aconselhamento financeiro ou de investimento. As limitações anteriores aplicar-se-ão na máxima medida permitida pela legislação em vigor, sem afetar os direitos que a legislação de defesa do consumidor reconhece aos utilizadores que tenham a condição de consumidores.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Lei Aplicável e Jurisdição</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>O presente Aviso Legal rege-se pela legislação espanhola. Para a resolução de qualquer litígio decorrente do acesso ou utilização dos sítios web e serviços do titular, as partes submetem-se aos Juízos e Tribunais que sejam competentes nos termos da lei. Quando o utilizador tenha a condição de consumidor, será competente o órgão jurisdicional correspondente ao seu domicílio. Nas relações com utilizadores que atuem como profissionais ou empresários, ambas as partes submetem-se, com renúncia expressa a qualquer outro foro, aos Juízos e Tribunais de Las Palmas de Gran Canaria (Espanha).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Idioma</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Europa</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Ásia</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>África</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>América</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Oceânia</value></data>
+
+</root>
