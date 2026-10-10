@@ -4,7 +4,8 @@
 @inject IJSRuntime JS
 
 @* Once idiomas ya no caben en una fila de botones: se elige aquí, con bandera y agrupado por
-   continentes. Cada idioma sale una sola vez, en el continente del que procede. *@
+   continentes. En Europa y Asia cada idioma sale una vez; en América y Oceanía sale cada país con
+   el idioma que habla, con el nombre del país debajo para distinguirlos. *@
 <button type="button" class="button is-small language-trigger" @onclick="OpenPicker">
     <img src="@Current.FlagVectorUrl" width="22" height="15" alt="@Current.NativeName" />
     <span class="language-trigger-name">@Current.NativeName</span>
@@ -28,10 +29,16 @@
                         @foreach (SupportedLanguage language in SupportedLanguages.ByContinent(continent))
                         {
                             <button type="button"
-                                    class="language-item @(language.Code == Current.Code ? "is-active" : "")"
-                                    @onclick="() => SelectAsync(language.Code)">
+                                    class="language-item @(language == Current ? "is-active" : "")"
+                                    @onclick="() => SelectAsync(language)">
                                 <img src="@language.FlagVectorUrl" width="22" height="15" alt="@language.NativeName" />
-                                <span>@language.NativeName</span>
+                                <span class="language-name">
+                                    @language.NativeName
+                                    @if (language.HasCountryName)
+                                    {
+                                        <small class="language-country">@language.CountryName</small>
+                                    }
+                                </span>
                             </button>
                         }
                     </div>
@@ -48,6 +55,38 @@
     protected override void OnInitialized() =>
         Current = SupportedLanguages.Find(CultureInfo.CurrentUICulture.Name);
 
+    // La bandera elegida con el idioma (español con la de México...) se guarda aparte de la cultura
+    // y sólo se puede leer una vez pintada la página.
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            string countryCode = await ReadFlagAsync();
+            SupportedLanguage remembered = SupportedLanguages.Find(Current.Code, countryCode);
+            if (remembered != Current)
+            {
+                Current = remembered;
+                StateHasChanged();
+            }
+        }
+    }
+
+    private async Task<string> ReadFlagAsync()
+    {
+        string result = null;
+
+        try
+        {
+            result = await JS.InvokeAsync<string>("getLegalFlag");
+        }
+        catch (JSException)
+        {
+            result = null;
+        }
+
+        return result;
+    }
+
     private void OpenPicker() => IsOpen = true;
 
     private void ClosePicker() => IsOpen = false;
@@ -61,14 +100,19 @@
         _ => "ContinentOceania"
     };
 
-    private async Task SelectAsync(string code)
+    private async Task SelectAsync(SupportedLanguage language)
     {
         IsOpen = false;
+        await JS.InvokeVoidAsync("setLegalFlag", language.CountryCode);
 
-        if (code != Current.Code)
+        if (language.Code != Current.Code)
         {
             // Guarda y recarga: Program.cs aplica la cultura antes de pintar.
-            await JS.InvokeVoidAsync("setLegalCulture", code);
+            await JS.InvokeVoidAsync("setLegalCulture", language.Code);
+        }
+        else
+        {
+            Current = language;
         }
     }
 }

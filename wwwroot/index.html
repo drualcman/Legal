@@ -44,6 +44,22 @@
             if (lang === 'tl') lang = 'fil';
             return lang;
         };
+        // Bandera elegida junto al idioma (español con la de México, inglés con la de Australia...).
+        // Misma cookie compartida que usan las apps de Shotup Albums; sólo es cosmética.
+        window.getLegalFlag = () => {
+            var match = document.cookie.match(/(?:^|;\s*)shotup-flag=([^;]*)/);
+            if (match) return decodeURIComponent(match[1]);
+            try { return localStorage.getItem('legalFlag'); } catch (e) { return null; }
+        };
+        window.setLegalFlag = (country) => {
+            try { localStorage.setItem('legalFlag', country); } catch (e) { }
+            var host = location.hostname;
+            var isShotupHost = host === 'shotupalbums.com' || host.endsWith('.shotupalbums.com');
+            var domain = isShotupHost ? '; domain=.shotupalbums.com' : '';
+            var secure = location.protocol === 'https:' ? '; secure' : '';
+            document.cookie = 'shotup-flag=' + encodeURIComponent(country)
+                + '; path=/; max-age=31536000; samesite=lax' + domain + secure;
+        };
         window.setLegalCulture = (culture) => {
             localStorage.setItem('legalCulture', culture);
             window.writeSharedCulture(culture);
