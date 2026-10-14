@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Νομική σημείωση | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Νομική σημείωση</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Τελευταία ενημέρωση: 22 Ιουνίου 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Γλώσσα:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Στοιχεία του δικαιούχου (LSSI, άρθρο 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>Σε συμμόρφωση με το άρθρο 10 του ισπανικού Νόμου 34/2002, της 11ης Ιουλίου, για τις υπηρεσίες της κοινωνίας της πληροφορίας και το ηλεκτρονικό εμπόριο (LSSI-CE), παρέχονται τα ακόλουθα στοιχεία ταυτοποίησης:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Δικαιούχος</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>ΑΦΜ (NIF)</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Διεύθυνση</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>Ηλεκτρονικό ταχυδρομείο</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Δραστηριότητα</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Ανάπτυξη, δημοσίευση και εκμετάλλευση λογισμικού, διαδικτυακών εφαρμογών και ψηφιακών υπηρεσιών, καθώς και βιβλιοθηκών και στοιχείων λογισμικού που διανέμονται ως ανοιχτός κώδικας ή ως πακέτα υπό άδεια χρήσης</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Αντικείμενο και υπηρεσίες</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>Η παρούσα Νομική σημείωση διέπει την πρόσβαση και τη χρήση των ιστοτόπων, των εφαρμογών και των ψηφιακών υπηρεσιών που ανήκουν στον Sergi Ortiz Gómez. Η δραστηριότητά του περιλαμβάνει την ανάπτυξη, τη δημοσίευση και την εκμετάλλευση διαφόρων προϊόντων και υπηρεσιών λογισμικού, μεταξύ των οποίων, ενδεικτικά και όχι περιοριστικά: διαδικτυακές πλατφόρμες και υπηρεσίες —όπως λογισμικό αυτοματοποιημένων συναλλαγών κρυπτονομισμάτων, υπηρεσίες ηλεκτρονικής τιμολόγησης σύμφωνα με την ισχύουσα νομοθεσία (για παράδειγμα, VeriFactu), λύσεις διαχείρισης ποιότητας σύμφωνα με το πρότυπο ISO 9001 και εφαρμογές οργάνωσης προσωπικού περιεχομένου—, καθώς και βιβλιοθήκες, στοιχεία και εργαλεία λογισμικού που διανέμονται ως ανοιχτός κώδικας ή ως πακέτα (για παράδειγμα, πακέτα NuGet), δωρεάν ή υπό άδεια χρήσης. Κάθε προϊόν ή υπηρεσία μπορεί να διαθέτει τους δικούς του ειδικούς όρους χρήσης, σύμβαση άδειας χρήσης τελικού χρήστη (EULA) και πολιτική απορρήτου, οι οποίοι υπερισχύουν της παρούσας Νομικής σημείωσης στο μέτρο που εφαρμόζονται ειδικά σε αυτό. Οι παρεχόμενες υπηρεσίες δεν συνιστούν επαγγελματική, χρηματοοικονομική, επενδυτική ή νομική συμβουλή, εκτός εάν ορίζεται ρητά το αντίθετο.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Πνευματική και βιομηχανική ιδιοκτησία</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Εκτός εάν ορίζεται διαφορετικά, όλο το περιεχόμενο των ιστοτόπων και των υπηρεσιών του δικαιούχου —συμπεριλαμβανομένων κειμένων, σχεδίων, πηγαίου κώδικα, λογοτύπων, εμπορικών σημάτων και εικόνων— ανήκει στον Sergi Ortiz Gómez ή χρησιμοποιείται βάσει της αντίστοιχης άδειας χρήσης και προστατεύεται από την ισπανική νομοθεσία και τη νομοθεσία της Ευρωπαϊκής Ένωσης περί πνευματικής και βιομηχανικής ιδιοκτησίας. Απαγορεύεται η αναπαραγωγή, η διανομή, η μετατροπή ή η παρουσίαση στο κοινό χωρίς τη ρητή και έγγραφη άδεια του δικαιούχου. Ωστόσο, το λογισμικό που διανέμεται ως ανοιχτός κώδικας ή μέσω πακέτων (για παράδειγμα, πακέτα NuGet) διέπεται από τους όρους της αντίστοιχης άδειας χρήσης του (όπως η MIT ή άλλη άδεια ή EULA που συνοδεύει κάθε προϊόν), η οποία υπερισχύει όσον αφορά το λογισμικό αυτό.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Όροι χρήσης και περιορισμός ευθύνης</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>Ο χρήστης δεσμεύεται να χρησιμοποιεί τους ιστοτόπους, τις εφαρμογές και τις υπηρεσίες του δικαιούχου σύμφωνα με τον νόμο, την παρούσα Νομική σημείωση και, κατά περίπτωση, τους ειδικούς όρους κάθε προϊόντος. Το λογισμικό και οι υπηρεσίες παρέχονται «ως έχουν» και «ανάλογα με τη διαθεσιμότητα», χωρίς εγγύηση αδιάλειπτης λειτουργίας ή λειτουργίας χωρίς σφάλματα. Ο δικαιούχος δεν ευθύνεται για ζημίες ή βλάβες που οφείλονται σε καταχρηστική χρήση, σε εσφαλμένη διαμόρφωση από τον χρήστη, σε σφάλματα ή διακοπές υπηρεσιών ή πλατφορμών τρίτων, σε απώλεια δεδομένων ή σε οποιαδήποτε άλλη περίσταση εκτός του εύλογου ελέγχου του. Ειδικότερα, το λογισμικό αυτοματοποιημένων συναλλαγών λειτουργεί σύμφωνα με τις παραμέτρους που ορίζει ο ίδιος ο χρήστης και δεν εγγυάται κερδοφορία ή οποιοδήποτε αποτέλεσμα, ενώ σε καμία περίπτωση δεν συνιστά χρηματοοικονομική ή επενδυτική συμβουλή. Οι ανωτέρω περιορισμοί εφαρμόζονται στον μέγιστο βαθμό που επιτρέπει η ισχύουσα νομοθεσία, με την επιφύλαξη των δικαιωμάτων που αναγνωρίζει η νομοθεσία για την προστασία των καταναλωτών στους χρήστες που έχουν την ιδιότητα του καταναλωτή.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Εφαρμοστέο δίκαιο και δικαιοδοσία</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>Η παρούσα Νομική σημείωση διέπεται από το ισπανικό δίκαιο. Για την επίλυση κάθε διαφοράς που προκύπτει από την πρόσβαση ή τη χρήση των ιστοτόπων και των υπηρεσιών του δικαιούχου, τα μέρη υπάγονται στα δικαστήρια που είναι αρμόδια σύμφωνα με τον νόμο. Όταν ο χρήστης έχει την ιδιότητα του καταναλωτή, αρμόδιο είναι το δικαστήριο του τόπου κατοικίας του. Στις σχέσεις με χρήστες που ενεργούν ως επαγγελματίες ή επιχειρηματίες, αμφότερα τα μέρη υπάγονται, με ρητή παραίτηση από κάθε άλλη δικαιοδοσία, στα δικαστήρια του Las Palmas de Gran Canaria (Ισπανία).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Γλώσσα</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Ευρώπη</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Ασία</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>Αφρική</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>Αμερική</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Ωκεανία</value></data>
+
+</root>
