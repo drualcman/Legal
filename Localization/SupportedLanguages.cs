@@ -15,6 +15,7 @@ public static class SupportedLanguages
         new SupportedLanguage("pt", "Português", "pt", LanguageContinent.Europe),
         new SupportedLanguage("el", "Ελληνικά", "gr", LanguageContinent.Europe),
         new SupportedLanguage("el", "Ελληνικά", "cy", LanguageContinent.Europe, "Κύπρος"),
+        new SupportedLanguage("sv", "Svenska", "se", LanguageContinent.Europe),
         new SupportedLanguage("ru", "Русский", "ru", LanguageContinent.Europe),
         new SupportedLanguage("zh", "中文 (简体)", "cn", LanguageContinent.Asia),
         new SupportedLanguage("ja", "日本語", "jp", LanguageContinent.Asia),

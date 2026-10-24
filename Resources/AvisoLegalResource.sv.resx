@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element>
+          <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element>
+          <xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="PageTitle" xml:space="preserve"><value>Rättsligt meddelande | Sergi Ortiz Gómez</value></data>
+  <data name="Title" xml:space="preserve"><value>Rättsligt meddelande</value></data>
+  <data name="LastUpdated" xml:space="preserve"><value>Uppdaterad: 22 juni 2026</value></data>
+  <data name="LangLabel" xml:space="preserve"><value>Språk:</value></data>
+
+  <data name="Section1Title" xml:space="preserve"><value>1. Uppgifter om innehavaren (LSSI, art. 10)</value></data>
+  <data name="Section1Intro" xml:space="preserve"><value>I enlighet med artikel 10 i den spanska lagen 34/2002 av den 11 juli om informationssamhällets tjänster och elektronisk handel (LSSI-CE) lämnas följande identifieringsuppgifter:</value></data>
+  <data name="LabelOwner" xml:space="preserve"><value>Innehavare</value></data>
+  <data name="LabelNIF" xml:space="preserve"><value>Skatteregistreringsnummer (NIF)</value></data>
+  <data name="LabelAddress" xml:space="preserve"><value>Adress</value></data>
+  <data name="LabelContact" xml:space="preserve"><value>E-post</value></data>
+  <data name="LabelActivity" xml:space="preserve"><value>Verksamhet</value></data>
+  <data name="ActivityValue" xml:space="preserve"><value>Utveckling, publicering och drift av programvara, webbapplikationer och digitala tjänster, samt av programbibliotek och programvarukomponenter som distribueras som öppen källkod eller som licensierade paket</value></data>
+
+  <data name="Section2Title" xml:space="preserve"><value>2. Syfte och tjänster</value></data>
+  <data name="Section2Text" xml:space="preserve"><value>Detta rättsliga meddelande reglerar åtkomst till och användning av de webbplatser, applikationer och digitala tjänster som innehas av Sergi Ortiz Gómez. Verksamheten omfattar utveckling, publicering och drift av olika programvaruprodukter och tjänster, bland annat och utan att uppräkningen är uttömmande: plattformar och onlinetjänster – såsom programvara för automatiserad handel med kryptovalutor, tjänster för elektronisk fakturering i enlighet med gällande regelverk (till exempel VeriFactu), lösningar för kvalitetsledning enligt standarden ISO 9001 och applikationer för att organisera personligt innehåll – samt programbibliotek, komponenter och programvaruverktyg som distribueras som öppen källkod eller som paket (till exempel NuGet-paket), kostnadsfritt eller under licens. Varje produkt eller tjänst kan ha egna särskilda användarvillkor, licensavtal för slutanvändare (EULA) och integritetspolicy, som har företräde framför detta rättsliga meddelande i den mån de är specifikt tillämpliga. De tjänster som tillhandahålls utgör inte professionell, finansiell, investerings- eller juridisk rådgivning, om inte annat uttryckligen anges.</value></data>
+
+  <data name="Section3Title" xml:space="preserve"><value>3. Immateriella rättigheter</value></data>
+  <data name="Section3Text" xml:space="preserve"><value>Om inte annat anges innehas allt innehåll på innehavarens webbplatser och tjänster – inklusive texter, design, källkod, logotyper, varumärken och bilder – av Sergi Ortiz Gómez eller används med vederbörlig licens, och det skyddas av spansk lagstiftning och EU-lagstiftning om immateriella rättigheter. Det är förbjudet att återge, distribuera, omarbeta eller offentligt överföra innehållet utan innehavarens uttryckliga skriftliga tillstånd. Programvara som distribueras som öppen källkod eller via paket (till exempel NuGet-paket) omfattas dock av villkoren i respektive licens (såsom MIT eller annan licens eller EULA som medföljer varje produkt), vilka har företräde i fråga om sådan programvara.</value></data>
+
+  <data name="Section4Title" xml:space="preserve"><value>4. Användarvillkor och ansvarsbegränsning</value></data>
+  <data name="Section4Text" xml:space="preserve"><value>Användaren åtar sig att använda innehavarens webbplatser, applikationer och tjänster i enlighet med lag, detta rättsliga meddelande och i förekommande fall de särskilda villkoren för varje produkt. Programvaran och tjänsterna tillhandahålls ”i befintligt skick” och ”i mån av tillgänglighet”, utan garanti för avbrottsfri eller felfri drift. Innehavaren ansvarar inte för skador eller förluster som uppstår till följd av felaktig användning, felaktig konfiguration från användarens sida, fel i eller avbrott hos tredje parts tjänster eller plattformar, dataförlust eller andra omständigheter utanför innehavarens rimliga kontroll. I synnerhet arbetar programvaran för automatiserad handel enligt de parametrar som användaren själv har konfigurerat och garanterar ingen avkastning eller något visst resultat, och den utgör under inga omständigheter finansiell rådgivning eller investeringsrådgivning. Ovanstående begränsningar gäller i den utsträckning som gällande lagstiftning tillåter, utan att det påverkar de rättigheter som konsumentlagstiftningen ger användare som är konsumenter.</value></data>
+
+  <data name="Section5Title" xml:space="preserve"><value>5. Tillämplig lag och behörig domstol</value></data>
+  <data name="Section5Text" xml:space="preserve"><value>Detta rättsliga meddelande regleras av spansk lag. För att lösa tvister som uppstår till följd av åtkomst till eller användning av innehavarens webbplatser och tjänster underkastar sig parterna de domstolar som är behöriga enligt lag. Om användaren är konsument är domstolen på användarens hemort behörig. I förhållande till användare som agerar i sin yrkes- eller näringsverksamhet underkastar sig båda parter, med uttryckligt avstående från annan behörig domstol, domstolarna i Las Palmas de Gran Canaria (Spanien).</value></data>
+
+  <data name="LanguagePickerTitle" xml:space="preserve"><value>Språk</value></data>
+
+  <data name="ContinentEurope" xml:space="preserve"><value>Europa</value></data>
+
+  <data name="ContinentAsia" xml:space="preserve"><value>Asien</value></data>
+
+  <data name="ContinentAfrica" xml:space="preserve"><value>Afrika</value></data>
+
+  <data name="ContinentAmerica" xml:space="preserve"><value>Amerika</value></data>
+
+  <data name="ContinentOceania" xml:space="preserve"><value>Oceanien</value></data>
+
+</root>
